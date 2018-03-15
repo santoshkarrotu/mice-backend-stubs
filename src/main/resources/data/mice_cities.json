@@ -1,0 +1,24 @@
+[
+  {
+    "miceCity": {
+      "id": "HYD",
+      "name": "Hyderabad"
+    },
+    "status": 1,
+    "errorList": {
+      "key1": "Error1",
+      "key2": "Error2"
+    }
+  },
+  {
+    "miceCity": {
+      "id": "DEL",
+      "name": "New Delhi"
+    },
+    "status": 1,
+    "errorList": {
+      "key1": "Error3",
+      "key2": "Error4"
+    }
+  }
+]
