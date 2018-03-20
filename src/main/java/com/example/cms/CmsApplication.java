@@ -1,9 +1,9 @@
 package com.example.cms;
 
-//import com.example.cms.service.MetadataService;
+//import com.example.cms.service.MetadataService.java;
 import com.example.cms.service.MiceAggregator;
 import com.oyo.aggregation.mice.TMiceAggregationService;
-import com.oyo.metadata.TMetaDataService;
+//import com.oyo.metadata.TMetaDataService;
 import org.apache.thrift.TProcessor;
 import org.apache.thrift.protocol.TJSONProtocol;
 import org.apache.thrift.protocol.TProtocolFactory;
@@ -23,7 +23,7 @@ public class CmsApplication {
 	MiceAggregator miceAggregator;
 
 //	@Autowired
-//	MetadataService metadataService;
+//	MetadataService.java metadataService;
 
 	public static void main(String[] args) { SpringApplication.run(CmsApplication.class, args); }
 
@@ -33,7 +33,7 @@ public class CmsApplication {
 				new TMiceAggregationService.Processor<>(miceAggregator);
 		TProtocolFactory protoFactory = new TJSONProtocol.Factory();
 		Servlet miceServlet = new TServlet(processor, protoFactory);
-		return new ServletRegistrationBean(miceServlet, "/miceAggregator/*");
+		return new ServletRegistrationBean(miceServlet, "/mice_aggregator/*");
 	}
 
 //	@Bean
