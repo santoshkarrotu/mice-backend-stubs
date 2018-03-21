@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class MiceAggregator implements TMiceAggregationService.Iface {
+public class MiceAggregationService implements TMiceAggregationService.Iface {
 
     @Autowired
     MiceDetailedData miceDetailedData;

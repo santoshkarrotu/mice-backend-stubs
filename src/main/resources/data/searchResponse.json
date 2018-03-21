@@ -4,6 +4,9 @@
     "2345",
     "3456"
   ],
-  "status": 1,
-  "errors": null
+  "status": 0,
+  "errors": [
+    "No error 1",
+    "No error 2"
+  ]
 }

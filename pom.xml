@@ -25,7 +25,7 @@
 		<thrift.exe>thrift</thrift.exe>
 		<thrift.interface>${basedir}/src/main/thrift/main.thrift</thrift.interface>
 		<gendir.target>${basedir}/target/generated-sources</gendir.target>
-		<start-class>com.oyo.micebackend.CmsApplication</start-class>
+		<start-class>com.oyo.micebackend.BackendStubsApplication</start-class>
 	</properties>
 
 	<dependencies>

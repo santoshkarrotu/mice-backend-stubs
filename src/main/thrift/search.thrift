@@ -41,7 +41,7 @@ struct TBanquetListRequest{
     1: required string location;
     2: required string typeOfEvent;
     3: optional i32 noOfGuests;
-    4: required dateTime dateTime;
+    4: optional dateTime dateTime;
     5: optional bool rentalOnly;
 }
 
