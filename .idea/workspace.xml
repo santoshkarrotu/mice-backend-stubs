@@ -2,104 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="264a7799-f8b5-46a3-a796-36016b4f1d79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/data/miceCities.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/data/miceEventTypes.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/data/standardDetails.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/model/PackageDetailsData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/model/PackageDetailsMediumData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/model/PackageDetailsSmall.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/data/mice_cities.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/cms/CmsApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/cms/ServletInitializer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/cms/controller/CmsController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/cms/model/CmsData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/cms/model/MiceDetailedData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/cms/model/MiceWithFewData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/cms/model/MiceWithStandardData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/cms/service/MiceAggregator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/example/cms/CmsApplicationTests.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/CmsApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/oyo/micebackend/CmsApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/ServletInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/oyo/micebackend/ServletInitializer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/controller/CmsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/oyo/micebackend/controller/CmsController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/model/CmsData.java" afterPath="$PROJECT_DIR$/src/main/java/com/oyo/micebackend/model/CmsData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/model/MiceDetailedData.java" afterPath="$PROJECT_DIR$/src/main/java/com/oyo/micebackend/model/MiceDetailedData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/model/MiceWithFewData.java" afterPath="$PROJECT_DIR$/src/main/java/com/oyo/micebackend/model/MiceWithFewData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/model/MiceWithStandardData.java" afterPath="$PROJECT_DIR$/src/main/java/com/oyo/micebackend/model/MiceWithStandardData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/service/MetadataService.java" afterPath="$PROJECT_DIR$/src/main/java/com/oyo/micebackend/service/MetadataService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/service/MiceAggregator.java" afterPath="$PROJECT_DIR$/src/main/java/com/oyo/micebackend/service/MiceAggregator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/example/cms/service/SearchService.java" afterPath="$PROJECT_DIR$/src/main/java/com/oyo/micebackend/service/SearchService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/data/cms_data.json" afterPath="$PROJECT_DIR$/src/main/resources/data/cmsData.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/data/mice_property_details.json" afterPath="$PROJECT_DIR$/src/main/resources/data/micePropertyDetails.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/data/package_data.json" afterPath="$PROJECT_DIR$/src/main/resources/data/foodPackageList.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/example/cms/CmsApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/oyo/micebackend/CmsApplicationTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodDetails_args$listFoodDetails_argsStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodDetails_args$listFoodDetails_argsStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodDetails_args$listFoodDetails_argsTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodDetails_args$listFoodDetails_argsTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodDetails_result$listFoodDetails_resultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodDetails_result$listFoodDetails_resultStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodDetails_result$listFoodDetails_resultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodDetails_result$listFoodDetails_resultTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodPackages_args$listFoodPackages_argsStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodPackages_args$listFoodPackages_argsStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodPackages_args$listFoodPackages_argsTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodPackages_args$listFoodPackages_argsTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodPackages_result$listFoodPackages_resultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodPackages_result$listFoodPackages_resultStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodPackages_result$listFoodPackages_resultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodAggregationService$listFoodPackages_result$listFoodPackages_resultTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodDetailedResponse$TFoodDetailedResponseStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodDetailedResponse$TFoodDetailedResponseStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodDetailedResponse$TFoodDetailedResponseTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TFoodDetailedResponse$TFoodDetailedResponseTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithFewDetails_args$getPropertyListingWithFewDetails_argsStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithFewDetails_args$getPropertyListingWithFewDetails_argsStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithFewDetails_args$getPropertyListingWithFewDetails_argsTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithFewDetails_args$getPropertyListingWithFewDetails_argsTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithFewDetails_result$getPropertyListingWithFewDetails_resultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithFewDetails_result$getPropertyListingWithFewDetails_resultStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithFewDetails_result$getPropertyListingWithFewDetails_resultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithFewDetails_result$getPropertyListingWithFewDetails_resultTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithStandardDetails_args$getPropertyListingWithStandardDetails_argsStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithStandardDetails_args$getPropertyListingWithStandardDetails_argsStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithStandardDetails_args$getPropertyListingWithStandardDetails_argsTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithStandardDetails_args$getPropertyListingWithStandardDetails_argsTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithStandardDetails_result$getPropertyListingWithStandardDetails_resultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithStandardDetails_result$getPropertyListingWithStandardDetails_resultStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithStandardDetails_result$getPropertyListingWithStandardDetails_resultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceAggregationService$getPropertyListingWithStandardDetails_result$getPropertyListingWithStandardDetails_resultTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceCityResponse$TMiceCityResponseStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceCityResponse$TMiceCityResponseStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceCityResponse$TMiceCityResponseTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceCityResponse$TMiceCityResponseTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceEventResponse$TMiceEventResponseStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceEventResponse$TMiceEventResponseStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceEventResponse$TMiceEventResponseTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceEventResponse$TMiceEventResponseTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceMetadataService$listMiceCities_result$listMiceCities_resultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceMetadataService$listMiceCities_result$listMiceCities_resultStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceMetadataService$listMiceCities_result$listMiceCities_resultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceMetadataService$listMiceCities_result$listMiceCities_resultTupleScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceMetadataService$listMiceEvents_result$listMiceEvents_resultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceMetadataService$listMiceEvents_result$listMiceEvents_resultStandardScheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceMetadataService$listMiceEvents_result$listMiceEvents_resultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/com/oyo/aggregation/mice/TMiceMetadataService$listMiceEvents_result$listMiceEvents_resultTupleScheme.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/thrift/mice_aggregator.thrift" afterPath="$PROJECT_DIR$/src/main/thrift/mice_aggregator.thrift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TAmenity.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TAmenity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TCity.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TCity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TCommonValues.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TCommonValues.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TDate.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TDate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodAggregationService.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodAggregationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodCategory.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodCategory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodCategoryWithQuantity.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodCategoryWithQuantity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodDetailedResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodDetailedResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodItem.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodPackage.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodPackage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodSearchAndFilterAttributes.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TFoodSearchAndFilterAttributes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TInventory.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TInventory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMapLocation.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMapLocation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMiceAggregationService.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMiceAggregationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMiceCityResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMiceCityResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMiceEvent.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMiceEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMiceEventResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMiceEventResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMiceMetadataService.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TMiceMetadataService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPrice.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPrice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPricePerPlate.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPricePerPlate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertyDetailedResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertyDetailedResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertySearchAndFilterAttributes.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertySearchAndFilterAttributes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertySmallResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertySmallResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertyStandardResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertyStandardResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertyWithCompleteDetails.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertyWithCompleteDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertyWithFewDetails.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertyWithFewDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertyWithStandardDetails.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TPropertyWithStandardDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TRestriction.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TRestriction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TService.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TTag.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TTag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TTime.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/aggregation/mice/TTime.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/search/TBanquetListRequest.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/search/TBanquetListRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/search/TPackagesListRequest.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/search/TPackagesListRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/search/TSearchResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/search/TSearchResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/search/TSearchService.java" afterPath="$PROJECT_DIR$/target/generated-sources/gen-javabean/com/oyo/search/TSearchService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oyo/micebackend/service/MiceAggregator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,11 +66,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CmsData.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CmsData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oyo/micebackend/model/CmsData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="183">
               <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -222,28 +136,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foodPackageList.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data/foodPackageList.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="553" column="1" lean-forward="false" selection-start-line="553" selection-start-column="1" selection-end-line="553" selection-end-column="1" />
-              <folding>
-                <element signature="e#4#1360#0" expanded="false" />
-                <element signature="e#1364#2720#0" expanded="false" />
-                <element signature="e#1470#2249#0" expanded="false" />
-                <element signature="e#2273#2716#0" expanded="false" />
-                <element signature="e#2724#4078#0" expanded="false" />
-                <element signature="e#2828#3607#0" expanded="false" />
-                <element signature="e#4082#5436#0" expanded="false" />
-                <element signature="e#5440#6795#0" expanded="false" />
-                <element signature="e#6799#8154#0" expanded="false" />
-                <element signature="e#8158#9516#0" expanded="false" />
-                <element signature="e#9520#10878#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -294,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/cms/model/CmsData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oyo/micebackend/CmsApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/standardDetails.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -367,81 +260,6 @@
             <path>
               <item name="backend-stubs" type="b2602c69:ProjectViewProjectNode" />
               <item name="mice-backend-stubs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-stubs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mice-backend-stubs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-stubs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mice-backend-stubs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-stubs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mice-backend-stubs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-stubs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mice-backend-stubs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="micebackend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-stubs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mice-backend-stubs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="micebackend" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-stubs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mice-backend-stubs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="micebackend" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-stubs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mice-backend-stubs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="micebackend" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-stubs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mice-backend-stubs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-stubs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mice-backend-stubs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-stubs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mice-backend-stubs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="thrift" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -576,16 +394,15 @@
       <option name="presentableId" value="Default" />
       <updated>1521122448843</updated>
       <workItem from="1521122452695" duration="6631000" />
-      <workItem from="1521439392161" duration="28427000" />
+      <workItem from="1521439392161" duration="29417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35058000" />
+    <option name="totallyTimeSpent" value="36048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -605,8 +422,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39661428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22961374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39661428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22961374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -928,7 +745,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oyo/micebackend/service/MiceAggregator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -937,8 +754,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oyo/micebackend/model/CmsData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
+        <state relative-caret-position="183">
           <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
           <folding />
         </state>
       </provider>
