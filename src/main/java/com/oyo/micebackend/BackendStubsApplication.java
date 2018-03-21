@@ -2,7 +2,9 @@ package com.oyo.micebackend;
 
 
 import com.oyo.aggregation.mice.TFoodAggregationService;
+import com.oyo.aggregation.mice.TMiceMetadataService;
 import com.oyo.micebackend.service.FoodAggregationService;
+import com.oyo.micebackend.service.MetaDataFromAggregationService;
 import com.oyo.micebackend.service.MiceAggregationService;
 import com.oyo.aggregation.mice.TMiceAggregationService;
 import com.oyo.micebackend.service.SearchService;
@@ -31,6 +33,8 @@ public class BackendStubsApplication {
 	FoodAggregationService foodAggregationService;
 	@Autowired
 	SearchService searchService;
+	@Autowired
+	MetaDataFromAggregationService metaDataFromAggregationService;
 
 	public static void main(String[] args) { SpringApplication.run(BackendStubsApplication.class, args); }
 
@@ -49,6 +53,14 @@ public class BackendStubsApplication {
 		TProtocolFactory protoFactory = new TJSONProtocol.Factory();
 		TServlet miceServlet = new TServlet(processor, protoFactory);
 		return miceServlet;
+	}
+
+	@Bean
+	public Servlet metadata_aggregation() {
+		TProcessor processor = new TMiceMetadataService.Processor<MetaDataFromAggregationService>(metaDataFromAggregationService);
+		TProtocolFactory protoFactory = new TJSONProtocol.Factory();
+		TServlet metadataServlet = new TServlet(processor, protoFactory);
+		return metadataServlet;
 	}
 
 	@Bean
