@@ -1,5 +1,6 @@
 package com.oyo.micebackend.service;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.oyo.micebackend.model.MiceDetailedData;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.oyo.aggregation.mice.*;
@@ -20,8 +21,6 @@ public class MiceAggregator implements TMiceAggregationService.Iface {
 
     @Override
     public TPropertyDetailedResponse getPropertyDetails(String catalogId, TPropertySearchAndFilterAttributes userSelectedAttributes, String locale) throws TException {
-        // Call MiceDetailsData to get detailed data
-//        TPropertyDetailedResponse tPropertyDetailedResponse = new TPropertyDetailedResponse();
         TPropertyDetailedResponse tPropertyDetailedResponse = null;
         try {
             tPropertyDetailedResponse = new ObjectMapper().readValue(new File("/Users/santosh/oyo/mice-backend-stubs/src/main/resources/data/micePropertyDetails.json"), TPropertyDetailedResponse.class);
@@ -40,24 +39,16 @@ public class MiceAggregator implements TMiceAggregationService.Iface {
     @Override
     public List<TPropertyStandardResponse> getPropertyListingWithStandardDetails(List<String> catalogIds, TPropertySearchAndFilterAttributes userSelectedAttributes, String locale) throws TException{
         List<TPropertyStandardResponse> tPropertyStandardResponses = new ArrayList<>();
-        TListStandardResponse listStandardResponse = null;
         try
         {
             TPropertyStandardResponse tPropertyStandardResponse = new TPropertyStandardResponse(null,TStatus.SUCCESS, null);
             tPropertyStandardResponses.add(tPropertyStandardResponse);
-            listStandardResponse = new ObjectMapper().readValue(new File("/Users/santosh/oyo/mice-backend-stubs/src/main/resources/data/standardDetails.json"), TListStandardResponse.class);
-            return listStandardResponse.getListResponse();
+            List<TPropertyStandardResponse> tPropertyStandardResponses1  = new ObjectMapper().readValue(new File("/Users/santosh/oyo/mice-backend-stubs/src/main/resources/data/standardDetails.json"), new TypeReference<List<TPropertyStandardResponse>>(){});
+            return tPropertyStandardResponses1;
         }
         catch (IOException e) {
             e.printStackTrace();
         }
         return tPropertyStandardResponses;
     }
-//    public JSONObject getDetails(){
-////        MiceDetailsData miceDetailsData = new MiceDetailsData();
-////        JSONObject jsonObject = miceDetailsData.getMiceDetails("1234");
-//        JSONObject thisObject = new JSONObject();
-//        thisObject.put("Hello", "This is hello!!!!!!!!!");
-//        return thisObject;
-//    }
 }
