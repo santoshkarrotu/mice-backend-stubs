@@ -1,0 +1,50 @@
+[
+  {
+    "eventType" : {
+      "id" : "event1",
+      "name": "Wedding"
+    },
+    "status": 0,
+    "errorList": null
+  },
+  {
+    "eventType" : {
+      "id" : "event2",
+      "name": "Birthday"
+    },
+    "status": 0,
+    "errorList": null
+  },
+  {
+    "eventType" : {
+      "id" : "event3",
+      "name": "Team Party"
+    },
+    "status": 0,
+    "errorList": null
+  },
+  {
+    "eventType" : {
+      "id" : "event4",
+      "name": "Conference"
+    },
+    "status": 0,
+    "errorList": null
+  },
+  {
+    "eventType" : {
+      "id" : "event5",
+      "name": "Anniversary"
+    },
+    "status": 0,
+    "errorList": null
+  },
+  {
+    "eventType" : null,
+    "status": 1,
+    "errorList": {
+      "key1": "error1",
+      "key2": "error2"
+    }
+  }
+]

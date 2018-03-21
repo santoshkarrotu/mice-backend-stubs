@@ -160,6 +160,9 @@ struct TPropertySearchAndFilterAttributes {
 	6: TFoodType foodType; //veg or non-veg
 	7: string foodPackageId; // catalogid of standard-veg, or deluxe-non-veg
 }
+struct TListStandardResponse {
+    1: list<TPropertyStandardResponse> listResponse;
+}
 
 service TMiceAggregationService {
 
