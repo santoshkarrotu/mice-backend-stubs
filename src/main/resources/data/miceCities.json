@@ -1,0 +1,42 @@
+[
+  {
+    "miceCity": {
+      "id": "HYD",
+      "name": "Hyderabad"
+    },
+    "status": 0,
+    "errorList": null
+  },
+  {
+    "miceCity": {
+      "id": "GRG",
+      "name": "Gurgaon"
+    },
+    "status": 0,
+    "errorList": null
+  },
+  {
+    "miceCity": {
+      "id": "BLR",
+      "name": "Bangalore"
+    },
+    "status": 0,
+    "errorList": null
+  },
+  {
+    "miceCity": {
+      "id": "DEL",
+      "name": "Delhi NCR"
+    },
+    "status": 0,
+    "errorList": null
+  },
+  {
+    "miceCity": null,
+    "status": 1,
+    "errorList": {
+      "key1": "Error1",
+      "key2": "Error2"
+    }
+  }
+]
