@@ -5,7 +5,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.springframework.stereotype.Repository;
 
-import java.io.FileReader;
+import java.io.*;
 
 @Repository
 public class CmsData {
@@ -15,8 +15,9 @@ public class CmsData {
         try {
             System.out.println("This is in getCMSData");
 //            ClassLoader classLoader = getClass().getClassLoader();
+            File file = getResourceAsFile("/data/cmsData.json");
 
-            JSONArray a = (JSONArray) parser.parse(new FileReader("/Users/santosh/oyo/mice-backend-stubs/src/main/resources/data/cmsData.json"));
+            JSONArray a = (JSONArray) parser.parse(new FileReader(file));
 
             System.out.println("Array Size "+ a.size());
             for (Object o : a)
@@ -36,5 +37,29 @@ public class CmsData {
 //            System.out.println(e.getMessage());
         }
         return new JSONObject();
+    }
+    private File getResourceAsFile(String resourcePath) {
+        try {
+            InputStream in = getClass().getResourceAsStream(resourcePath);
+            if (in == null) {
+                return null;
+            }
+
+            File tempFile = File.createTempFile(String.valueOf(in.hashCode()), ".json");
+            tempFile.deleteOnExit();
+
+            try (FileOutputStream out = new FileOutputStream(tempFile)) {
+//copy stream
+                byte[] buffer = new byte[1024];
+                int bytesRead;
+                while ((bytesRead = in.read(buffer)) != -1) {
+                    out.write(buffer, 0, bytesRead);
+                }
+            }
+            return tempFile;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }

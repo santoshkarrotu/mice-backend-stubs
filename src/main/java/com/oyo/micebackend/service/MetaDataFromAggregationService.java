@@ -11,7 +11,9 @@ import org.apache.thrift.TException;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
 @Component
@@ -20,7 +22,8 @@ public class MetaDataFromAggregationService implements TMiceMetadataService.Ifac
     public List<TMiceEventResponse> listMiceEvents(String locale) throws TException {
         List<TMiceEventResponse> tMiceEventResponses = null;
         try {
-            tMiceEventResponses = new ObjectMapper().readValue(new File("/Users/santosh/oyo/mice-backend-stubs/src/main/resources/data/miceEventTypes.json"), new TypeReference<List<TMiceEventResponse>>(){});
+            File file = getResourceAsFile("/data/miceEventTypes.json");
+            tMiceEventResponses = new ObjectMapper().readValue(file, new TypeReference<List<TMiceEventResponse>>(){});
             return tMiceEventResponses;
         }catch (JsonParseException e) {
             e.printStackTrace();
@@ -36,7 +39,8 @@ public class MetaDataFromAggregationService implements TMiceMetadataService.Ifac
     public List<TMiceCityResponse> listMiceCities(String locale) throws TException {
         List<TMiceCityResponse> tMiceCityResponses = null;
         try {
-            tMiceCityResponses = new ObjectMapper().readValue(new File("/Users/santosh/oyo/mice-backend-stubs/src/main/resources/data/miceCities.json"), new TypeReference<List<TMiceCityResponse>>(){});
+            File file = getResourceAsFile("/data/miceCities.json");
+            tMiceCityResponses = new ObjectMapper().readValue(file, new TypeReference<List<TMiceCityResponse>>(){});
             return tMiceCityResponses;
         }catch (JsonParseException e) {
             e.printStackTrace();
@@ -46,5 +50,29 @@ public class MetaDataFromAggregationService implements TMiceMetadataService.Ifac
             e.printStackTrace();
         }
         return null;
+    }
+    private File getResourceAsFile(String resourcePath) {
+        try {
+            InputStream in = getClass().getResourceAsStream(resourcePath);
+            if (in == null) {
+                return null;
+            }
+
+            File tempFile = File.createTempFile(String.valueOf(in.hashCode()), ".json");
+            tempFile.deleteOnExit();
+
+            try (FileOutputStream out = new FileOutputStream(tempFile)) {
+//copy stream
+                byte[] buffer = new byte[1024];
+                int bytesRead;
+                while ((bytesRead = in.read(buffer)) != -1) {
+                    out.write(buffer, 0, bytesRead);
+                }
+            }
+            return tempFile;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }
