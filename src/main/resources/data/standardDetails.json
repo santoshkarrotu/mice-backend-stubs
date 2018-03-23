@@ -332,7 +332,7 @@
         },
         {
           "catalogId" : "food5",
-          "name" : "Premium-veg",
+          "name" : "Premium",
           "foodType" : 0,
           "foodCategoryWithQuantity": [
             {
@@ -401,7 +401,7 @@
         },
         {
           "catalogId" : "food6",
-          "name" : "Premium-non-veg",
+          "name" : "Premium",
           "foodType" : 1,
           "foodCategoryWithQuantity": [
             {
@@ -470,7 +470,7 @@
         },
         {
           "catalogId" : "food7",
-          "name" : "Conference-veg",
+          "name" : "Conference",
           "foodType" : 0,
           "foodCategoryWithQuantity": [
             {
@@ -539,7 +539,7 @@
         },
         {
           "catalogId" : "food8",
-          "name" : "Conference-non-veg",
+          "name" : "Conference",
           "foodType" : 1,
           "foodCategoryWithQuantity": [
             {
@@ -668,7 +668,7 @@
       "foodPackageList" : [
         {
           "catalogId" : "food1",
-          "name" : "Standard-veg",
+          "name" : "Standard",
           "foodType" : 0,
           "foodCategoryWithQuantity": [
             {
@@ -737,7 +737,7 @@
         },
         {
           "catalogId" : "food2",
-          "name" : "Standard-non-veg",
+          "name" : "Standard",
           "foodType" : 1,
           "foodCategoryWithQuantity": [
             {
@@ -806,7 +806,7 @@
         },
         {
           "catalogId" : "food3",
-          "name" : "Deluxe-veg",
+          "name" : "Deluxe",
           "foodType" : 0,
           "foodCategoryWithQuantity": [
             {
@@ -875,7 +875,7 @@
         },
         {
           "catalogId" : "food4",
-          "name" : "Deluxe-non-veg",
+          "name" : "Deluxe",
           "foodType" : 1,
           "foodCategoryWithQuantity": [
             {
@@ -944,7 +944,7 @@
         },
         {
           "catalogId" : "food5",
-          "name" : "Premium-veg",
+          "name" : "Premium",
           "foodType" : 0,
           "foodCategoryWithQuantity": [
             {
@@ -1013,7 +1013,7 @@
         },
         {
           "catalogId" : "food6",
-          "name" : "Premium-non-veg",
+          "name" : "Premium",
           "foodType" : 1,
           "foodCategoryWithQuantity": [
             {
@@ -1082,7 +1082,7 @@
         },
         {
           "catalogId" : "food7",
-          "name" : "Conference-veg",
+          "name" : "Conference",
           "foodType" : 0,
           "foodCategoryWithQuantity": [
             {
@@ -1151,7 +1151,7 @@
         },
         {
           "catalogId" : "food8",
-          "name" : "Conference-non-veg",
+          "name" : "Conference",
           "foodType" : 1,
           "foodCategoryWithQuantity": [
             {
