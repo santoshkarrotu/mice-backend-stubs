@@ -21,9 +21,10 @@ public class SearchService implements TSearchService.Iface {
     public TSearchResponse getBanquetsList(TBanquetListRequest tBanquetListRequest) throws TException {
         TSearchResponse tSearchResponse = null;
         try {
-            File file = getResourceAsFile("/data/searchResponse.json");
-
+            File file = getResourceAsFile("/data/searchBanquets.json");
+            System.out.println("This is in saerch banquets");
             tSearchResponse = new ObjectMapper().readValue(file, TSearchResponse.class);
+            System.out.println(tSearchResponse);
         } catch (JsonParseException e) {
             e.printStackTrace();
         } catch (JsonMappingException e) {
@@ -41,7 +42,20 @@ public class SearchService implements TSearchService.Iface {
 
     @Override
     public TSearchResponse getFoodPackagesList() throws TException {
-        return null;
+        TSearchResponse tSearchResponse = null;
+        try {
+            File file = getResourceAsFile("/data/searchFood.json");
+            System.out.println("This is in search Food");
+            tSearchResponse = new ObjectMapper().readValue(file, TSearchResponse.class);
+            System.out.println(tSearchResponse);
+        } catch (JsonParseException e) {
+            e.printStackTrace();
+        } catch (JsonMappingException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return tSearchResponse;
     }
     private File getResourceAsFile(String resourcePath) {
         try {

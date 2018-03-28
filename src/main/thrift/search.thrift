@@ -5,8 +5,9 @@ typedef string dateTime //DateTime format to be defined
 
 
 enum TStatus{
-    SUCCESS=1,
-    FAILURE=2
+    SUCCESS = 1,
+    PARTIAL = 2,
+    FAILURE = 3
 }
 
 enum month{
@@ -39,7 +40,7 @@ struct TPackagesListRequest{
 }
 struct TBanquetListRequest{
     1: required string location;
-    2: required string typeOfEvent;
+    2: optional string typeOfEvent;
     3: optional i32 noOfGuests;
     4: optional dateTime dateTime;
     5: optional bool rentalOnly;
