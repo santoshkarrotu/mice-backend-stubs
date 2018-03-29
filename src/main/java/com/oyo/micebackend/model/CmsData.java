@@ -59,6 +59,24 @@ public class CmsData {
         return new JSONObject();
     }
 
+
+    public JSONObject getVenueDetails(String catalogId) {
+        JSONParser parser = new JSONParser();
+        try {
+            System.out.println("This is in getVenue Details method");
+            File file = getResourceAsFile("/data/completeDetailsCms.json");
+            JSONObject a = (JSONObject) parser.parse(new FileReader(file));
+            return a;
+        } catch (ParseException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return new JSONObject();
+    }
+
     private File getResourceAsFile(String resourcePath) {
         try {
             InputStream in = getClass().getResourceAsStream(resourcePath);

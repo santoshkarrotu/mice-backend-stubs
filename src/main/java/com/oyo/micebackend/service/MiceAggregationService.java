@@ -25,7 +25,7 @@ public class MiceAggregationService implements TMiceAggregationService.Iface {
     public TPropertyDetailedResponse getPropertyDetails(String catalogId, TPropertySearchAndFilterAttributes userSelectedAttributes, String locale) throws TException {
         TPropertyDetailedResponse tPropertyDetailedResponse = null;
         try {
-            File file = getResourceAsFile("/data/micePropertyDetails.json");
+            File file = getResourceAsFile("/data/completeDetailsAggregation.json");
             tPropertyDetailedResponse = new ObjectMapper().readValue(file, TPropertyDetailedResponse.class);
             System.out.println(tPropertyDetailedResponse);
         } catch (IOException e) {
@@ -44,7 +44,7 @@ public class MiceAggregationService implements TMiceAggregationService.Iface {
         List<TPropertyStandardResponse> tPropertyStandardResponses = new ArrayList<>();
         try
         {
-            File file = getResourceAsFile("/data/standardDetails.json");
+            File file = getResourceAsFile("/data/standardDetailsAggregation.json");
             TPropertyStandardResponse tPropertyStandardResponse = new TPropertyStandardResponse(null,TStatus.SUCCESS, null);
             tPropertyStandardResponses.add(tPropertyStandardResponse);
             List<TPropertyStandardResponse> tPropertyStandardResponses1  = new ObjectMapper().readValue(file, new TypeReference<List<TPropertyStandardResponse>>(){});

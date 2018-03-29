@@ -26,4 +26,9 @@ public class CmsController {
     public JSONObject getdetails(@PathVariable(value = "catalogIds") List<String> catalogIds) {
         return cmsData.getStandardDetails(catalogIds);
     }
+    @RequestMapping(value = {"/cmsservice/instances/getVenueDetails/{catalogId}"}, method = RequestMethod.GET)
+    public JSONObject getVenueDetails(@PathVariable(value = "catalogId") String catalogId) {
+        System.out.println("This is in getvenuedetails");
+        return cmsData.getVenueDetails(catalogId);
+    }
 }

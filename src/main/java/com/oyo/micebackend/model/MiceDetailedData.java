@@ -13,7 +13,7 @@ public class MiceDetailedData {
         JSONObject data = null;
         try {
             ClassLoader classLoader = getClass().getClassLoader();
-            JSONObject a = (JSONObject) parser.parse(new FileReader(classLoader.getResource("data/micePropertyDetails.json").getFile()));
+            JSONObject a = (JSONObject) parser.parse(new FileReader(classLoader.getResource("data/completeDetailsAggregation.json").getFile()));
             data = (JSONObject) a.get("data");
             System.out.println(a.size());
             System.out.println(a);
