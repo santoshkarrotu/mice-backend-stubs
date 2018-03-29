@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 public class CmsController {
 
@@ -19,5 +21,9 @@ public class CmsController {
     public JSONObject welcome(@PathVariable(value="cmsId") String cmsId) {
         System.out.println("In CMS Controller for key_id:" + cmsId);
         return cmsData.getCMSdata(cmsId);
+    }
+    @RequestMapping(value = {"/cmsservice/instances/getStandardDetails/{catalogIds}"}, method = RequestMethod.GET)
+    public JSONObject getdetails(@PathVariable(value = "catalogIds") List<String> catalogIds) {
+        return cmsData.getStandardDetails(catalogIds);
     }
 }

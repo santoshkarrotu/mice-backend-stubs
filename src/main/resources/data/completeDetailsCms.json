@@ -1,0 +1,115 @@
+{
+  "data" :{
+    "locality" : "Sector 44, Gurgaon",
+    "videoClip" : "s3 url",
+    "virtualTour" : "s3 url",
+    "about" : "It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests.",
+    "plotNo" : "1234",
+    "street" : "borabanda street",
+    "landmark" : "near borabanda",
+    "pincode" : "508213",
+    "city" : "suryapet",
+    "state" : "telangana",
+    "weddingImages" : {
+      "1" : {
+        "image" : "s3 url"
+      },
+      "2" : {
+        "image" : "s3 url"
+      },
+      "3" : {
+        "image" : "s3 url"
+      },
+      "4" : {
+        "image" : "s3 url"
+      }
+    },
+    "birthdayImages" : {
+      "1" : {
+        "image" : "s3 url"
+      },
+      "2" : {
+        "image" : "s3 url"
+      },
+      "3" : {
+        "image" : "s3 url"
+      },
+      "4" : {
+        "image" : "s3 url"
+      }
+    },
+    "anniversaryImages" : {
+      "1" : {
+        "image" : "s3 url"
+      },
+      "2" : {
+        "image" : "s3 url"
+      },
+      "3" : {
+        "image" : "s3 url"
+      },
+      "4" : {
+        "image" : "s3 url"
+      }
+    },
+    "teamPartyImages" : {
+      "1" : {
+        "image" : "s3 url"
+      },
+      "2" : {
+        "image" : "s3 url"
+      },
+      "3" : {
+        "image" : "s3 url"
+      },
+      "4" : {
+        "image" : "s3 url"
+      }
+    },
+    "images" : {
+      "1" : {
+        "image" : "s3 url"
+      },
+      "2" : {
+        "image" : "s3 url"
+      },
+      "3" : {
+        "image" : "s3 url"
+      },
+      "4" : {
+        "image" : "s3 url"
+      }
+    }
+  ,
+    "BAM Name" : "Santhosh Karrotu",
+    "BAM Email": "abcd@gmail.com",
+    "BAM Photo" : " s3 url",
+    "TnCs" : {
+      "1" : {
+        "tnc" : "first term and condition"
+      },
+      "2" : {
+        "tnc" : "first term and condition"
+      },
+      "3" : {
+        "tnc" : "first term and condition"
+      },
+      "4" : {
+        "tnc" : "first term and condition"
+      }
+    },
+    "priceRental" : "500",
+    "priceVegStandard" : "700",
+    "priceNonVegStandard" : "900",
+    "priceVegDeluxe" : "700",
+    "priceNonVegDeluxe" : "900",
+    "priceVegPremium" : "700",
+    "priceNonVegPremium" : "900",
+    "priceVegExclusive" : "700",
+    "priceNonVegExclusive" : "900",
+    "priceVegConference" : "700",
+    "priceNonVegConference" : "900"
+
+  },
+  "status": 0
+}
