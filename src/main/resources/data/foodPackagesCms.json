@@ -1,0 +1,214 @@
+{
+  "data": [
+    {
+      "data": {
+        "catalogId" : "food1",
+        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
+        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
+        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
+        "cmsId": "5242",
+        "title": "Standard",
+        "description": "Space rent, 3-4 hours (included)",
+        "salads": "Salads",
+        "mains": "Mains",
+        "dal": "Dal",
+        "rice": "Rice",
+        "pickle": "Pickles/Papads",
+        "breads": "Breads",
+        "dessert": "Desserts",
+        "templateName": "banquetFoodPackageTemplate",
+        "cmsName": "standardFoodPackage"
+      },
+      "status": "success"
+    },
+    {
+      "data": {
+        "catalogId" : "food2",
+        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
+        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
+        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
+        "cmsId": "5242",
+        "title": "Standard",
+        "description": "Space rent, 3-4 hours (included)",
+        "salads": "Salads",
+        "mains": "Mains",
+        "dal": "Dal",
+        "rice": "Rice",
+        "pickle": "Pickles/Papads",
+        "breads": "Breads",
+        "dessert": "Desserts",
+        "templateName": "banquetFoodPackageTemplate",
+        "cmsName": "standardFoodPackage"
+      },
+      "status": "success"
+    },
+    {
+      "data": {
+        "catalogId" : "food3",
+        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
+        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
+        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
+        "cmsId": "5242",
+        "title": "Deluxe",
+        "description": "Space rent, 3-4 hours (included)",
+        "salads": "Salads",
+        "mains": "Mains",
+        "dal": "Dal",
+        "rice": "Rice",
+        "pickle": "Pickles/Papads",
+        "breads": "Breads",
+        "dessert": "Desserts",
+        "templateName": "banquetFoodPackageTemplate",
+        "cmsName": "standardFoodPackage"
+      },
+      "status": "success"
+    },
+    {
+      "data": {
+        "catalogId" : "food4",
+        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
+        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
+        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
+        "cmsId": "5242",
+        "title": "Deluxe",
+        "description": "Space rent, 3-4 hours (included)",
+        "salads": "Salads",
+        "mains": "Mains",
+        "dal": "Dal",
+        "rice": "Rice",
+        "pickle": "Pickles/Papads",
+        "breads": "Breads",
+        "dessert": "Desserts",
+        "templateName": "banquetFoodPackageTemplate",
+        "cmsName": "standardFoodPackage"
+      },
+      "status": "success"
+    },
+    {
+      "data": {
+        "catalogId" : "food5",
+        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
+        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
+        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
+        "cmsId": "5242",
+        "title": "Premium",
+        "description": "Space rent, 3-4 hours (included)",
+        "salads": "Salads",
+        "mains": "Mains",
+        "dal": "Dal",
+        "rice": "Rice",
+        "pickle": "Pickles/Papads",
+        "breads": "Breads",
+        "dessert": "Desserts",
+        "templateName": "banquetFoodPackageTemplate",
+        "cmsName": "standardFoodPackage"
+      },
+      "status": "success"
+    },
+    {
+      "data": {
+        "catalogId" : "food6",
+        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
+        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
+        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
+        "cmsId": "5242",
+        "title": "Premium",
+        "description": "Space rent, 3-4 hours (included)",
+        "salads": "Salads",
+        "mains": "Mains",
+        "dal": "Dal",
+        "rice": "Rice",
+        "pickle": "Pickles/Papads",
+        "breads": "Breads",
+        "dessert": "Desserts",
+        "templateName": "banquetFoodPackageTemplate",
+        "cmsName": "standardFoodPackage"
+      },
+      "status": "success"
+    },
+    {
+      "data": {
+        "catalogId" : "food7",
+        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
+        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
+        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
+        "cmsId": "5242",
+        "title": "Conference",
+        "description": "Space rent, 3-4 hours (included)",
+        "salads": "Salads",
+        "mains": "Mains",
+        "dal": "Dal",
+        "rice": "Rice",
+        "pickle": "Pickles/Papads",
+        "breads": "Breads",
+        "dessert": "Desserts",
+        "templateName": "banquetFoodPackageTemplate",
+        "cmsName": "standardFoodPackage"
+      },
+      "status": "success"
+    },
+    {
+      "data": {
+        "catalogId" : "food8",
+        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
+        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
+        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
+        "cmsId": "5242",
+        "title": "Conference",
+        "description": "Space rent, 3-4 hours (included)",
+        "salads": "Salads",
+        "mains": "Mains",
+        "dal": "Dal",
+        "rice": "Rice",
+        "pickle": "Pickles/Papads",
+        "breads": "Breads",
+        "dessert": "Desserts",
+        "templateName": "banquetFoodPackageTemplate",
+        "cmsName": "standardFoodPackage"
+      },
+      "status": "success"
+    },
+    {
+      "data": {
+        "catalogId" : "food9",
+        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
+        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
+        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
+        "cmsId": "5242",
+        "title": "Exclusive",
+        "description": "Space rent, 3-4 hours (included)",
+        "salads": "Salads",
+        "mains": "Mains",
+        "dal": "Dal",
+        "rice": "Rice",
+        "pickle": "Pickles/Papads",
+        "breads": "Breads",
+        "dessert": "Desserts",
+        "templateName": "banquetFoodPackageTemplate",
+        "cmsName": "standardFoodPackage"
+      },
+      "status": "success"
+    },
+    {
+      "data": {
+        "catalogId" : "food10",
+        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
+        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
+        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
+        "cmsId": "5242",
+        "title": "Exclusive",
+        "description": "Space rent, 3-4 hours (included)",
+        "salads": "Salads",
+        "mains": "Mains",
+        "dal": "Dal",
+        "rice": "Rice",
+        "pickle": "Pickles/Papads",
+        "breads": "Breads",
+        "dessert": "Desserts",
+        "templateName": "banquetFoodPackageTemplate",
+        "cmsName": "standardFoodPackage"
+      },
+      "status": "success"
+    }
+  ]
+}
