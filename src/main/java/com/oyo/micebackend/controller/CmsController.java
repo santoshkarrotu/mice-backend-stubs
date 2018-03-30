@@ -31,4 +31,9 @@ public class CmsController {
         System.out.println("This is in getvenuedetails");
         return cmsData.getVenueDetails(catalogId);
     }
+    @RequestMapping(value = {"/cmsservice/instances/getMultipleCatalogData/{catalogIds}"}, method = RequestMethod.GET)
+    public JSONObject getMultipleCatalogData(@PathVariable(value = "catalogIds") List<String> catalogIds) {
+        System.out.println("getting food package details from cms");
+        return cmsData.getMultipleCatalogData(catalogIds);
+    }
 }

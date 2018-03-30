@@ -101,4 +101,22 @@ public class CmsData {
             return null;
         }
     }
+
+    public JSONObject getMultipleCatalogData(List<String> catalogIds) {
+        JSONParser parser = new JSONParser();
+        try {
+            System.out.println("This is in getMultipleCatalogData method");
+            File file = getResourceAsFile("/data/foodPackagesCms.json");
+            JSONObject a = (JSONObject) parser.parse(new FileReader(file));
+            System.out.println(a.keySet());
+            return a;
+        } catch (ParseException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return new JSONObject();
+    }
 }
