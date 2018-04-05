@@ -4,9 +4,10 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.oyo.aggregation.mice.TMiceCityResponse;
+import com.oyo.aggregation.mice.TFoodTypeResponse;
 import com.oyo.aggregation.mice.TMiceEventResponse;
 import com.oyo.aggregation.mice.TMiceMetadataService;
+import com.oyo.aggregation.mice.TPaxRangeResponse;
 import org.apache.thrift.TException;
 import org.springframework.stereotype.Component;
 
@@ -14,6 +15,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 
 @Component
@@ -36,13 +38,13 @@ public class MetaDataFromAggregationService implements TMiceMetadataService.Ifac
     }
 
     @Override
-    public List<TMiceCityResponse> listMiceCities(String locale) throws TException {
-        List<TMiceCityResponse> tMiceCityResponses = null;
+    public List<TPaxRangeResponse> listPaxRanges(String locale) throws TException {
+        List<TPaxRangeResponse> paxRangeResponses = new ArrayList<>();
         try {
-            File file = getResourceAsFile("/data/miceCities.json");
-            tMiceCityResponses = new ObjectMapper().readValue(file, new TypeReference<List<TMiceCityResponse>>(){});
-            return tMiceCityResponses;
-        }catch (JsonParseException e) {
+            File file = getResourceAsFile("/data/paxRanges.json");
+            paxRangeResponses = new ObjectMapper().readValue(file, new TypeReference<List<TPaxRangeResponse>>(){});
+            return paxRangeResponses;
+        } catch (JsonParseException e) {
             e.printStackTrace();
         } catch (JsonMappingException e) {
             e.printStackTrace();
@@ -51,6 +53,24 @@ public class MetaDataFromAggregationService implements TMiceMetadataService.Ifac
         }
         return null;
     }
+
+    @Override
+    public List<TFoodTypeResponse> listFoodTypes(String locale) throws TException {
+        List<TFoodTypeResponse> tFoodTypeResponses = new ArrayList<>();
+        try {
+            File file = getResourceAsFile("/data/foodTypes.json");
+            tFoodTypeResponses = new ObjectMapper().readValue(file, new TypeReference<List<TFoodTypeResponse>>(){});
+            return tFoodTypeResponses;
+        } catch (JsonParseException e) {
+            e.printStackTrace();
+        } catch (JsonMappingException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     private File getResourceAsFile(String resourcePath) {
         try {
             InputStream in = getClass().getResourceAsStream(resourcePath);

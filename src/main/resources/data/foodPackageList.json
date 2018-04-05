@@ -1,692 +1,692 @@
-[
-  {
-    "catalogId" : "food1",
-    "name" : "Standard",
-    "foodType" : 0,
-    "foodCategoryWithQuantity": [
-      {
-        "foodCategory": {
-          "name": "Salads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Mains"
-        },
-        "quantityAllowed": 4
-      },
-      {
-        "foodCategory": {
-          "name": "Dal"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Rice"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Pickles/Papads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Breads"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Deserts"
-        },
-        "quantityAllowed": 2
-      }
-    ],
-    "pricePerPlate" : [
-      {
-        "paxRange" : "<= 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 0,
-          "discountPercentage" : 0.00,
-          "afterDiscountPrice" : 100.00
-        }
-      },
-      {
-        "paxRange" : "> 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 1,
-          "discountPercentage" : 10.00,
-          "afterDiscountPrice" : 90.00
-        }
-      }
-    ]
-  },
-  {
-    "catalogId" : "food2",
-    "name" : "Standard",
-    "foodType" : 1,
-    "foodCategoryWithQuantity": [
-      {
-        "foodCategory": {
-          "name": "Salads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Mains"
-        },
-        "quantityAllowed": 4
-      },
-      {
-        "foodCategory": {
-          "name": "Dal"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Rice"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Pickles/Papads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Breads"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Deserts"
-        },
-        "quantityAllowed": 2
-      }
-    ],
-    "pricePerPlate" : [
-      {
-        "paxRange" : "<= 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 0,
-          "discountPercentage" : 0.00,
-          "afterDiscountPrice" : 100.00
-        }
-      },
-      {
-        "paxRange" : "> 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 1,
-          "discountPercentage" : 10.00,
-          "afterDiscountPrice" : 90.00
-        }
-      }
-    ]
-  },
-  {
-    "catalogId" : "food3",
-    "name" : "Deluxe",
-    "foodType" : 0,
-    "foodCategoryWithQuantity": [
-      {
-        "foodCategory": {
-          "name": "Salads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Mains"
-        },
-        "quantityAllowed": 4
-      },
-      {
-        "foodCategory": {
-          "name": "Dal"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Rice"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Pickles/Papads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Breads"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Deserts"
-        },
-        "quantityAllowed": 2
-      }
-    ],
-    "pricePerPlate" : [
-      {
-        "paxRange" : "<= 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 0,
-          "discountPercentage" : 0.00,
-          "afterDiscountPrice" : 100.00
-        }
-      },
-      {
-        "paxRange" : "> 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 1,
-          "discountPercentage" : 10.00,
-          "afterDiscountPrice" : 90.00
-        }
-      }
-    ]
-  },
-  {
-    "catalogId" : "food4",
-    "name" : "Deluxe",
-    "foodType" : 1,
-    "foodCategoryWithQuantity": [
-      {
-        "foodCategory": {
-          "name": "Salads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Mains"
-        },
-        "quantityAllowed": 4
-      },
-      {
-        "foodCategory": {
-          "name": "Dal"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Rice"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Pickles/Papads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Breads"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Deserts"
-        },
-        "quantityAllowed": 2
-      }
-    ],
-    "pricePerPlate" : [
-      {
-        "paxRange" : "<= 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 0,
-          "discountPercentage" : 0.00,
-          "afterDiscountPrice" : 100.00
-        }
-      },
-      {
-        "paxRange" : "> 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 1,
-          "discountPercentage" : 10.00,
-          "afterDiscountPrice" : 90.00
-        }
-      }
-    ]
-  },
-  {
-    "catalogId" : "food5",
-    "name" : "Premium",
-    "foodType" : 0,
-    "foodCategoryWithQuantity": [
-      {
-        "foodCategory": {
-          "name": "Salads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Mains"
-        },
-        "quantityAllowed": 4
-      },
-      {
-        "foodCategory": {
-          "name": "Dal"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Rice"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Pickles/Papads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Breads"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Deserts"
-        },
-        "quantityAllowed": 2
-      }
-    ],
-    "pricePerPlate" : [
-      {
-        "paxRange" : "<= 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 0,
-          "discountPercentage" : 0.00,
-          "afterDiscountPrice" : 100.00
-        }
-      },
-      {
-        "paxRange" : "> 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 1,
-          "discountPercentage" : 10.00,
-          "afterDiscountPrice" : 90.00
-        }
-      }
-    ]
-  },
-  {
-    "catalogId" : "food6",
-    "name" : "Premium",
-    "foodType" : 1,
-    "foodCategoryWithQuantity": [
-      {
-        "foodCategory": {
-          "name": "Salads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Mains"
-        },
-        "quantityAllowed": 4
-      },
-      {
-        "foodCategory": {
-          "name": "Dal"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Rice"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Pickles/Papads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Breads"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Deserts"
-        },
-        "quantityAllowed": 2
-      }
-    ],
-    "pricePerPlate" : [
-      {
-        "paxRange" : "<= 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 0,
-          "discountPercentage" : 0.00,
-          "afterDiscountPrice" : 100.00
-        }
-      },
-      {
-        "paxRange" : "> 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 1,
-          "discountPercentage" : 10.00,
-          "afterDiscountPrice" : 90.00
-        }
-      }
-    ]
-  },
-  {
-    "catalogId" : "food7",
-    "name" : "Conference",
-    "foodType" : 0,
-    "foodCategoryWithQuantity": [
-      {
-        "foodCategory": {
-          "name": "Salads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Mains"
-        },
-        "quantityAllowed": 4
-      },
-      {
-        "foodCategory": {
-          "name": "Dal"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Rice"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Pickles/Papads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Breads"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Deserts"
-        },
-        "quantityAllowed": 2
-      }
-    ],
-    "pricePerPlate" : [
-      {
-        "paxRange" : "<= 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 0,
-          "discountPercentage" : 0.00,
-          "afterDiscountPrice" : 100.00
-        }
-      },
-      {
-        "paxRange" : "> 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 1,
-          "discountPercentage" : 10.00,
-          "afterDiscountPrice" : 90.00
-        }
-      }
-    ]
-  },
-  {
-    "catalogId" : "food8",
-    "name" : "Conference",
-    "foodType" : 1,
-    "foodCategoryWithQuantity": [
-      {
-        "foodCategory": {
-          "name": "Salads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Mains"
-        },
-        "quantityAllowed": 4
-      },
-      {
-        "foodCategory": {
-          "name": "Dal"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Rice"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Pickles/Papads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Breads"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Deserts"
-        },
-        "quantityAllowed": 2
-      }
-    ],
-    "pricePerPlate" : [
-      {
-        "paxRange" : "<= 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 0,
-          "discountPercentage" : 0.00,
-          "afterDiscountPrice" : 100.00
-        }
-      },
-      {
-        "paxRange" : "> 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 1,
-          "discountPercentage" : 10.00,
-          "afterDiscountPrice" : 90.00
-        }
-      }
-    ]
-  },
-  {
-    "catalogId" : "food9",
-    "name" : "Exclusive",
-    "foodType" : 0,
-    "foodCategoryWithQuantity": [
-      {
-        "foodCategory": {
-          "name": "Salads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Mains"
-        },
-        "quantityAllowed": 4
-      },
-      {
-        "foodCategory": {
-          "name": "Dal"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Rice"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Pickles/Papads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Breads"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Deserts"
-        },
-        "quantityAllowed": 2
-      }
-    ],
-    "pricePerPlate" : [
-      {
-        "paxRange" : "<= 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 0,
-          "discountPercentage" : 0.00,
-          "afterDiscountPrice" : 100.00
-        }
-      },
-      {
-        "paxRange" : "> 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 1,
-          "discountPercentage" : 10.00,
-          "afterDiscountPrice" : 90.00
-        }
-      }
-    ]
-  },
-  {
-    "catalogId" : "food10",
-    "name" : "Exclusive",
-    "foodType" : 1,
-    "foodCategoryWithQuantity": [
-      {
-        "foodCategory": {
-          "name": "Salads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Mains"
-        },
-        "quantityAllowed": 4
-      },
-      {
-        "foodCategory": {
-          "name": "Dal"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Rice"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Pickles/Papads"
-        },
-        "quantityAllowed": 1
-      },
-      {
-        "foodCategory": {
-          "name": "Breads"
-        },
-        "quantityAllowed": 2
-      },
-      {
-        "foodCategory": {
-          "name": "Deserts"
-        },
-        "quantityAllowed": 2
-      }
-    ],
-    "pricePerPlate" : [
-      {
-        "paxRange" : "<= 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 0,
-          "discountPercentage" : 0.00,
-          "afterDiscountPrice" : 100.00
-        }
-      },
-      {
-        "paxRange" : "> 30",
-        "price" : {
-          "originalPrice" : 100.00,
-          "valueDeal" : 1,
-          "discountPercentage" : 10.00,
-          "afterDiscountPrice" : 90.00
-        }
-      }
-    ]
-  }
-]
+//[
+//  {
+//    "catalogId" : "food1",
+//    "name" : "Standard",
+//    "foodType" : 0,
+//    "foodCategoryWithQuantity": [
+//      {
+//        "foodCategory": {
+//          "name": "Salads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Mains"
+//        },
+//        "quantityAllowed": 4
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Dal"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Rice"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Pickles/Papads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Breads"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Deserts"
+//        },
+//        "quantityAllowed": 2
+//      }
+//    ],
+//    "pricePerPlate" : [
+//      {
+//        "paxRange" : "<= 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 0,
+//          "discountPercentage" : 0.00,
+//          "afterDiscountPrice" : 100.00
+//        }
+//      },
+//      {
+//        "paxRange" : "> 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 1,
+//          "discountPercentage" : 10.00,
+//          "afterDiscountPrice" : 90.00
+//        }
+//      }
+//    ]
+//  },
+//  {
+//    "catalogId" : "food2",
+//    "name" : "Standard",
+//    "foodType" : 1,
+//    "foodCategoryWithQuantity": [
+//      {
+//        "foodCategory": {
+//          "name": "Salads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Mains"
+//        },
+//        "quantityAllowed": 4
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Dal"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Rice"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Pickles/Papads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Breads"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Deserts"
+//        },
+//        "quantityAllowed": 2
+//      }
+//    ],
+//    "pricePerPlate" : [
+//      {
+//        "paxRange" : "<= 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 0,
+//          "discountPercentage" : 0.00,
+//          "afterDiscountPrice" : 100.00
+//        }
+//      },
+//      {
+//        "paxRange" : "> 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 1,
+//          "discountPercentage" : 10.00,
+//          "afterDiscountPrice" : 90.00
+//        }
+//      }
+//    ]
+//  },
+//  {
+//    "catalogId" : "food3",
+//    "name" : "Deluxe",
+//    "foodType" : 0,
+//    "foodCategoryWithQuantity": [
+//      {
+//        "foodCategory": {
+//          "name": "Salads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Mains"
+//        },
+//        "quantityAllowed": 4
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Dal"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Rice"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Pickles/Papads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Breads"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Deserts"
+//        },
+//        "quantityAllowed": 2
+//      }
+//    ],
+//    "pricePerPlate" : [
+//      {
+//        "paxRange" : "<= 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 0,
+//          "discountPercentage" : 0.00,
+//          "afterDiscountPrice" : 100.00
+//        }
+//      },
+//      {
+//        "paxRange" : "> 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 1,
+//          "discountPercentage" : 10.00,
+//          "afterDiscountPrice" : 90.00
+//        }
+//      }
+//    ]
+//  },
+//  {
+//    "catalogId" : "food4",
+//    "name" : "Deluxe",
+//    "foodType" : 1,
+//    "foodCategoryWithQuantity": [
+//      {
+//        "foodCategory": {
+//          "name": "Salads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Mains"
+//        },
+//        "quantityAllowed": 4
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Dal"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Rice"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Pickles/Papads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Breads"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Deserts"
+//        },
+//        "quantityAllowed": 2
+//      }
+//    ],
+//    "pricePerPlate" : [
+//      {
+//        "paxRange" : "<= 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 0,
+//          "discountPercentage" : 0.00,
+//          "afterDiscountPrice" : 100.00
+//        }
+//      },
+//      {
+//        "paxRange" : "> 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 1,
+//          "discountPercentage" : 10.00,
+//          "afterDiscountPrice" : 90.00
+//        }
+//      }
+//    ]
+//  },
+//  {
+//    "catalogId" : "food5",
+//    "name" : "Premium",
+//    "foodType" : 0,
+//    "foodCategoryWithQuantity": [
+//      {
+//        "foodCategory": {
+//          "name": "Salads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Mains"
+//        },
+//        "quantityAllowed": 4
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Dal"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Rice"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Pickles/Papads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Breads"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Deserts"
+//        },
+//        "quantityAllowed": 2
+//      }
+//    ],
+//    "pricePerPlate" : [
+//      {
+//        "paxRange" : "<= 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 0,
+//          "discountPercentage" : 0.00,
+//          "afterDiscountPrice" : 100.00
+//        }
+//      },
+//      {
+//        "paxRange" : "> 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 1,
+//          "discountPercentage" : 10.00,
+//          "afterDiscountPrice" : 90.00
+//        }
+//      }
+//    ]
+//  },
+//  {
+//    "catalogId" : "food6",
+//    "name" : "Premium",
+//    "foodType" : 1,
+//    "foodCategoryWithQuantity": [
+//      {
+//        "foodCategory": {
+//          "name": "Salads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Mains"
+//        },
+//        "quantityAllowed": 4
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Dal"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Rice"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Pickles/Papads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Breads"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Deserts"
+//        },
+//        "quantityAllowed": 2
+//      }
+//    ],
+//    "pricePerPlate" : [
+//      {
+//        "paxRange" : "<= 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 0,
+//          "discountPercentage" : 0.00,
+//          "afterDiscountPrice" : 100.00
+//        }
+//      },
+//      {
+//        "paxRange" : "> 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 1,
+//          "discountPercentage" : 10.00,
+//          "afterDiscountPrice" : 90.00
+//        }
+//      }
+//    ]
+//  },
+//  {
+//    "catalogId" : "food7",
+//    "name" : "Conference",
+//    "foodType" : 0,
+//    "foodCategoryWithQuantity": [
+//      {
+//        "foodCategory": {
+//          "name": "Salads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Mains"
+//        },
+//        "quantityAllowed": 4
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Dal"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Rice"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Pickles/Papads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Breads"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Deserts"
+//        },
+//        "quantityAllowed": 2
+//      }
+//    ],
+//    "pricePerPlate" : [
+//      {
+//        "paxRange" : "<= 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 0,
+//          "discountPercentage" : 0.00,
+//          "afterDiscountPrice" : 100.00
+//        }
+//      },
+//      {
+//        "paxRange" : "> 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 1,
+//          "discountPercentage" : 10.00,
+//          "afterDiscountPrice" : 90.00
+//        }
+//      }
+//    ]
+//  },
+//  {
+//    "catalogId" : "food8",
+//    "name" : "Conference",
+//    "foodType" : 1,
+//    "foodCategoryWithQuantity": [
+//      {
+//        "foodCategory": {
+//          "name": "Salads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Mains"
+//        },
+//        "quantityAllowed": 4
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Dal"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Rice"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Pickles/Papads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Breads"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Deserts"
+//        },
+//        "quantityAllowed": 2
+//      }
+//    ],
+//    "pricePerPlate" : [
+//      {
+//        "paxRange" : "<= 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 0,
+//          "discountPercentage" : 0.00,
+//          "afterDiscountPrice" : 100.00
+//        }
+//      },
+//      {
+//        "paxRange" : "> 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 1,
+//          "discountPercentage" : 10.00,
+//          "afterDiscountPrice" : 90.00
+//        }
+//      }
+//    ]
+//  },
+//  {
+//    "catalogId" : "food9",
+//    "name" : "Exclusive",
+//    "foodType" : 0,
+//    "foodCategoryWithQuantity": [
+//      {
+//        "foodCategory": {
+//          "name": "Salads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Mains"
+//        },
+//        "quantityAllowed": 4
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Dal"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Rice"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Pickles/Papads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Breads"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Deserts"
+//        },
+//        "quantityAllowed": 2
+//      }
+//    ],
+//    "pricePerPlate" : [
+//      {
+//        "paxRange" : "<= 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 0,
+//          "discountPercentage" : 0.00,
+//          "afterDiscountPrice" : 100.00
+//        }
+//      },
+//      {
+//        "paxRange" : "> 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 1,
+//          "discountPercentage" : 10.00,
+//          "afterDiscountPrice" : 90.00
+//        }
+//      }
+//    ]
+//  },
+//  {
+//    "catalogId" : "food10",
+//    "name" : "Exclusive",
+//    "foodType" : 1,
+//    "foodCategoryWithQuantity": [
+//      {
+//        "foodCategory": {
+//          "name": "Salads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Mains"
+//        },
+//        "quantityAllowed": 4
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Dal"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Rice"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Pickles/Papads"
+//        },
+//        "quantityAllowed": 1
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Breads"
+//        },
+//        "quantityAllowed": 2
+//      },
+//      {
+//        "foodCategory": {
+//          "name": "Deserts"
+//        },
+//        "quantityAllowed": 2
+//      }
+//    ],
+//    "pricePerPlate" : [
+//      {
+//        "paxRange" : "<= 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 0,
+//          "discountPercentage" : 0.00,
+//          "afterDiscountPrice" : 100.00
+//        }
+//      },
+//      {
+//        "paxRange" : "> 30",
+//        "price" : {
+//          "originalPrice" : 100.00,
+//          "valueDeal" : 1,
+//          "discountPercentage" : 10.00,
+//          "afterDiscountPrice" : 90.00
+//        }
+//      }
+//    ]
+//  }
+//]

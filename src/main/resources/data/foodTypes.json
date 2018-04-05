@@ -1,0 +1,18 @@
+[
+  {
+    "foodType" : {
+      "id": "veg",
+      "name": "Veg"
+    },
+    "status" : 0,
+    "errorList" : null
+  },
+  {
+    "foodType" : {
+      "id": "nonveg",
+      "name": "Non-Veg"
+    },
+    "status" : 0,
+    "errorList" : null
+  }
+]

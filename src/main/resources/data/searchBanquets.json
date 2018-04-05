@@ -1,9 +1,5 @@
 {
-  "catalogIds" : [
-    "1234",
-    "2345",
-    "3456"
-  ],
+  "catalogIds" : [123, 234],
   "status": 1,
   "errors": [
     "No error 1",

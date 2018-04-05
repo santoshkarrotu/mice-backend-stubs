@@ -1,115 +1,131 @@
 {
-  "data" :{
-    "locality" : "Sector 44, Gurgaon",
-    "videoClip" : "s3 url",
-    "virtualTour" : "s3 url",
-    "about" : "It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests.",
-    "plotNo" : "1234",
-    "street" : "borabanda street",
-    "landmark" : "near borabanda",
-    "pincode" : "508213",
-    "city" : "suryapet",
-    "state" : "telangana",
-    "weddingImages" : {
-      "1" : {
-        "image" : "s3 url"
+  "data": {
+    "bamEmail": "tarun.karamshetty@oyorooms.com",
+    "food1": "600",
+    "images_keys": "4",
+    "birthdayImages": {
+      "1": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_birthdayImages_image_1"
       },
-      "2" : {
-        "image" : "s3 url"
+      "2": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_birthdayImages_image_2"
       },
-      "3" : {
-        "image" : "s3 url"
+      "3": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_birthdayImages_image_3"
       },
-      "4" : {
-        "image" : "s3 url"
+      "4": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_birthdayImages_image_4"
       }
     },
-    "birthdayImages" : {
-      "1" : {
-        "image" : "s3 url"
-      },
-      "2" : {
-        "image" : "s3 url"
-      },
-      "3" : {
-        "image" : "s3 url"
-      },
-      "4" : {
-        "image" : "s3 url"
+    "food3": "700",
+    "city": "Gurgaon",
+    "food2": "650",
+    "plotNo": "Plot No 45",
+    "food5": "750",
+    "food4": "733",
+    "about": "It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests.",
+    "food7": "850",
+    "food6": "800",
+    "food9": "950",
+    "food8": "900",
+    "TnCs": {
+      "cmsId": "3984",
+      "templateName": "TnCTemplate",
+      "cmsName": "firstTnCs",
+      "TnCs_keys": "6",
+      "TnCs": {
+        "1": {
+          "Tnc": "All given rates are per person on Twin/Double sharing basis, until unless specified specially in Quotation."
+        },
+        "2": {
+          "Tnc": "All given rates at quotation level are based on real time availability. There may be a change in price in between the time interval of Quotation and Confirmation of Package. Any such change will be specified accordingly."
+        },
+        "3": {
+          "Tnc": "Special payment and cancellation policy will be applicable during peak season/Blackout dates. These dates usually – City Events, Regional/National Holidays, Political Conferences, Major Cultural festivals or any other Event which can affect regular tourist movement."
+        },
+        "4": {
+          "Tnc": "In case of unavailability of rooms in given Hotels due to any unexpected scenario, alternate accommodation arrangement will be made in similar standard available Hotel."
+        },
+        "5": {
+          "Tnc": "Room occupancy will strictly be in accordance with the one confirmed at the time of booking."
+        },
+        "6": {
+          "Tnc": "Check-in and Check-out timings of Hotels are different and based on the regulations/Policies of local Hotel unions of concern region/City or general trend of market. These will be specified at the time of quotation/Communication."
+        }
       }
     },
-    "anniversaryImages" : {
-      "1" : {
-        "image" : "s3 url"
+    "weddingImages": {
+      "1": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_weddingImages_image_1"
       },
-      "2" : {
-        "image" : "s3 url"
+      "2": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_weddingImages_image_2"
       },
-      "3" : {
-        "image" : "s3 url"
+      "3": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_weddingImages_image_3"
       },
-      "4" : {
-        "image" : "s3 url"
+      "4": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_weddingImages_image_4"
       }
     },
-    "teamPartyImages" : {
-      "1" : {
-        "image" : "s3 url"
+    "street": "Street No 5",
+    "state": "Delhi",
+    "landmark": "Near International Airport",
+    "anniversaryImages_keys": "4",
+    "pincode": "508213",
+    "images": {
+      "1": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_images_image_1"
       },
-      "2" : {
-        "image" : "s3 url"
+      "2": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_images_image_2"
       },
-      "3" : {
-        "image" : "s3 url"
+      "3": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_images_image_3"
       },
-      "4" : {
-        "image" : "s3 url"
+      "4": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_images_image_4"
       }
     },
-    "images" : {
-      "1" : {
-        "image" : "s3 url"
+    "cmsId": "3040",
+    "weddingImages_keys": "4",
+    "food10": "1000",
+    "priceRental": "30000",
+    "locality": "COnnaught Place",
+    "birthdayImages_keys": "4",
+    "teamPartyImages_keys": "4",
+    "bamName": "Tarun Karamshetty",
+    "teamPartyImages": {
+      "1": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_teamPartyImages_image_1"
       },
-      "2" : {
-        "image" : "s3 url"
+      "2": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_teamPartyImages_image_2"
       },
-      "3" : {
-        "image" : "s3 url"
+      "3": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_teamPartyImages_image_3"
       },
-      "4" : {
-        "image" : "s3 url"
-      }
-    }
-  ,
-    "BAM Name" : "Santhosh Karrotu",
-    "BAM Email": "abcd@gmail.com",
-    "BAM Photo" : " s3 url",
-    "TnCs" : {
-      "1" : {
-        "tnc" : "first term and condition"
-      },
-      "2" : {
-        "tnc" : "first term and condition"
-      },
-      "3" : {
-        "tnc" : "first term and condition"
-      },
-      "4" : {
-        "tnc" : "first term and condition"
+      "4": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_teamPartyImages_image_4"
       }
     },
-    "priceRental" : "500",
-    "priceVegStandard" : "700",
-    "priceNonVegStandard" : "900",
-    "priceVegDeluxe" : "700",
-    "priceNonVegDeluxe" : "900",
-    "priceVegPremium" : "700",
-    "priceNonVegPremium" : "900",
-    "priceVegExclusive" : "700",
-    "priceNonVegExclusive" : "900",
-    "priceVegConference" : "700",
-    "priceNonVegConference" : "900"
-
+    "templateName": "banquetDetailsTemplate",
+    "cmsName": "banquet1",
+    "anniversaryImages": {
+      "1": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_anniversaryImages_image_1"
+      },
+      "2": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_anniversaryImages_image_2"
+      },
+      "3": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_anniversaryImages_image_3"
+      },
+      "4": {
+        "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_anniversaryImages_image_4"
+      }
+    },
+    "minPrice": "600"
   },
-  "status": 0
+  "status": "success"
 }

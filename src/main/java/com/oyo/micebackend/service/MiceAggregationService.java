@@ -1,7 +1,7 @@
 package com.oyo.micebackend.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.oyo.micebackend.model.MiceDetailedData;
+import com.oyo.aggregation.common.TStatus;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.oyo.aggregation.mice.*;
 import org.apache.thrift.TException;
@@ -18,16 +18,14 @@ import java.util.List;
 @Component
 public class MiceAggregationService implements TMiceAggregationService.Iface {
 
-    @Autowired
-    MiceDetailedData miceDetailedData;
-
     @Override
-    public TPropertyDetailedResponse getPropertyDetails(String catalogId, TPropertySearchAndFilterAttributes userSelectedAttributes, String locale) throws TException {
+    public TPropertyDetailedResponse getPropertyDetails(String catalogId, String locale) throws TException {
         TPropertyDetailedResponse tPropertyDetailedResponse = null;
         try {
+            System.out.println("This is getPropertyDetails");
             File file = getResourceAsFile("/data/completeDetailsAggregation.json");
             tPropertyDetailedResponse = new ObjectMapper().readValue(file, TPropertyDetailedResponse.class);
-            System.out.println(tPropertyDetailedResponse);
+//            System.out.println(tPropertyDetailedResponse);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -35,17 +33,17 @@ public class MiceAggregationService implements TMiceAggregationService.Iface {
     }
 
     @Override
-    public List<TPropertySmallResponse> getPropertyListingWithFewDetails(List<String> catalogIds, TPropertySearchAndFilterAttributes userSelectedAttributes, String locale) throws TException {
+    public List<TPropertySmallResponse> getPropertyListingWithFewDetails(List<String> catalogIds, String locale) throws TException {
         return null;
     }
 
     @Override
-    public List<TPropertyStandardResponse> getPropertyListingWithStandardDetails(List<String> catalogIds, TPropertySearchAndFilterAttributes userSelectedAttributes, String locale) throws TException{
+    public List<TPropertyStandardResponse> getPropertyListingWithStandardDetails(List<String> catalogIds, String locale) throws TException{
         List<TPropertyStandardResponse> tPropertyStandardResponses = new ArrayList<>();
         try
         {
             File file = getResourceAsFile("/data/standardDetailsAggregation.json");
-            TPropertyStandardResponse tPropertyStandardResponse = new TPropertyStandardResponse(null,TStatus.SUCCESS, null);
+            TPropertyStandardResponse tPropertyStandardResponse = new TPropertyStandardResponse(null, TStatus.SUCCESS, null);
             tPropertyStandardResponses.add(tPropertyStandardResponse);
             List<TPropertyStandardResponse> tPropertyStandardResponses1  = new ObjectMapper().readValue(file, new TypeReference<List<TPropertyStandardResponse>>(){});
             return tPropertyStandardResponses1;

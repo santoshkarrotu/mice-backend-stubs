@@ -1,6 +1,6 @@
 [
   {
-    "miceCity": {
+    "city": {
       "id": "HYD",
       "name": "Hyderabad"
     },
@@ -8,7 +8,7 @@
     "errorList": null
   },
   {
-    "miceCity": {
+    "city": {
       "id": "GRG",
       "name": "Gurgaon"
     },
@@ -16,7 +16,7 @@
     "errorList": null
   },
   {
-    "miceCity": {
+    "city": {
       "id": "BLR",
       "name": "Bangalore"
     },
@@ -24,7 +24,7 @@
     "errorList": null
   },
   {
-    "miceCity": {
+    "city": {
       "id": "DEL",
       "name": "Delhi NCR"
     },
@@ -32,11 +32,10 @@
     "errorList": null
   },
   {
-    "miceCity": null,
-    "status": 1,
+    "status":1,
     "errorList": {
-      "key1": "Error1",
-      "key2": "Error2"
+      "key1" : "Error1",
+      "key2" : "Error2"
     }
   }
 ]

@@ -1,13 +1,11 @@
 package com.oyo.micebackend;
 
 
+import com.oyo.aggregation.common.TCommonMetadataService;
 import com.oyo.aggregation.mice.TFoodAggregationService;
 import com.oyo.aggregation.mice.TMiceMetadataService;
-import com.oyo.micebackend.service.FoodAggregationService;
-import com.oyo.micebackend.service.MetaDataFromAggregationService;
-import com.oyo.micebackend.service.MiceAggregationService;
+import com.oyo.micebackend.service.*;
 import com.oyo.aggregation.mice.TMiceAggregationService;
-import com.oyo.micebackend.service.SearchService;
 import com.oyo.search.TSearchService;
 import org.apache.thrift.TProcessor;
 import org.apache.thrift.protocol.TJSONProtocol;
@@ -35,6 +33,8 @@ public class BackendStubsApplication {
 	SearchService searchService;
 	@Autowired
 	MetaDataFromAggregationService metaDataFromAggregationService;
+	@Autowired
+	CommonMetaDataService commonMetaDataService;
 
 	public static void main(String[] args) { SpringApplication.run(BackendStubsApplication.class, args); }
 
@@ -70,5 +70,15 @@ public class BackendStubsApplication {
 		TProtocolFactory protoFactory = new TJSONProtocol.Factory();
 		Servlet searchServlet = new TServlet(processor, protoFactory);
 		return searchServlet;
+	}
+
+	@Bean
+	public Servlet common_aggregation() {
+		TProcessor processor =
+				new TCommonMetadataService.Processor<CommonMetaDataService>(commonMetaDataService);
+		TProtocolFactory protocolFactory = new TJSONProtocol.Factory();
+		Servlet citiesServlet = new TServlet(processor, protocolFactory);
+		System.out.println("addsgadeRE");
+		return citiesServlet;
 	}
 }

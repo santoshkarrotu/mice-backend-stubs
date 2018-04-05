@@ -13,87 +13,35 @@
     "propertyCode" : "BQ-123",
     "locality" : "DLF",
     "city" : "Gurgaon",
-    "standingCapacity" : 500,
-    "theatreSeatingCapacity" : 501,
-    "clusterSeatingCapacity" : 502,
+    "standingCapacity" : {
+      "minCapacity" : 400,
+      "maxCapacity" : 500
+    },
+    "theatreSeatingCapacity" : {
+      "minCapacity" : 200,
+      "maxCapacity" : 300
+    },
+    "clusterSeatingCapacity" : {
+      "minCapacity" : 100,
+      "maxCapacity" : 250
+    },
     "mapPoints" : {
       "latitude" : 12.4321,
       "longitude" : 12.4321
     },
     "foodPackageList" : [
       {
-        "catalogId" : "food1",
-        "name" : "Standard-veg",
-        "foodType" : 0,
-        "foodCategoryWithQuantity": [
-        {
-          "foodCategory": {
-            "name": "Salads"
-          },
-          "quantityAllowed": 1
-        },
-        {
-          "foodCategory": {
-            "name": "Mains"
-          },
-          "quantityAllowed": 4
-        },
-        {
-          "foodCategory": {
-            "name": "Dal"
-          },
-          "quantityAllowed": 2
-        },
-        {
-          "foodCategory": {
-            "name": "Rice"
-          },
-          "quantityAllowed": 2
-        },
-        {
-          "foodCategory": {
-            "name": "Pickles/Papads"
-          },
-          "quantityAllowed": 1
-        },
-        {
-          "foodCategory": {
-            "name": "Breads"
-          },
-          "quantityAllowed": 2
-        },
-        {
-          "foodCategory": {
-            "name": "Deserts"
-          },
-          "quantityAllowed": 2
-        }
-      ],
-        "pricePerPlate" : [
-          {
-            "paxRange" : "<= 30",
-            "price" : {
-              "originalPrice" : 100.00,
-              "valueDeal" : 0,
-              "discountPercentage" : 0.00,
-              "afterDiscountPrice" : 100.00
-            }
-          },
-          {
-            "paxRange" : "> 30",
-            "price" : {
-              "originalPrice" : 100.00,
-              "valueDeal" : 1,
-              "discountPercentage" : 10.00,
-              "afterDiscountPrice" : 90.00
-            }
+        "commonValues" : {
+          "id" : "food1",
+          "name" : "Standard-Veg",
+          "type" : "foodPacakge",
+          "activationDate" : "22/22/22",
+          "expiryDate" : "23/23/12",
+          "inventory" : {
+            "inventory": 10
           }
-        ]
-      },
-      {
-        "catalogId" : "food2",
-        "name" : "Standard-non-veg",
-        "foodType" : 1,
+        },
+        "foodType" : {"id": "veg", "name": "Veg"},
         "foodCategoryWithQuantity": [
           {
             "foodCategory": {
@@ -160,9 +108,17 @@
         ]
       },
       {
-        "catalogId" : "food3",
-        "name" : "Deluxe-veg",
-        "foodType" : 0,
+        "commonValues" : {
+          "id" : "food2",
+          "name" : "Standard-non-veg",
+          "type" : "foodPacakge",
+          "activationDate" : "22/22/22",
+          "expiryDate" : "23/23/12",
+          "inventory" : {
+            "inventory": 10
+          }
+        },
+        "foodType" : {"id": "nonveg", "name": "Non-Veg"},
         "foodCategoryWithQuantity": [
           {
             "foodCategory": {
@@ -229,9 +185,17 @@
         ]
       },
       {
-        "catalogId" : "food4",
-        "name" : "Deluxe-non-veg",
-        "foodType" : 1,
+        "commonValues" : {
+          "id" : "food3",
+          "name" : "Deluxe-veg",
+          "type" : "veg",
+          "activationDate" : "22/22/22",
+          "expiryDate" : "23/23/12",
+          "inventory" : {
+            "inventory": 10
+          }
+        },
+        "foodType" : {"id": "veg", "name": "Veg"},
         "foodCategoryWithQuantity": [
           {
             "foodCategory": {
@@ -298,9 +262,17 @@
         ]
       },
       {
-        "catalogId" : "food5",
-        "name" : "Premium-veg",
-        "foodType" : 0,
+        "commonValues" : {
+          "id" : "food4",
+          "name" : "Deluxe-non-veg",
+          "type" : "veg",
+          "activationDate" : "22/22/22",
+          "expiryDate" : "23/23/12",
+          "inventory" : {
+            "inventory": 10
+          }
+        },
+        "foodType" : {"id": "nonveg", "name": "Non-Veg"},
         "foodCategoryWithQuantity": [
           {
             "foodCategory": {
@@ -367,9 +339,17 @@
         ]
       },
       {
-        "catalogId" : "food6",
-        "name" : "Premium-non-veg",
-        "foodType" : 1,
+        "commonValues" : {
+          "id" : "food5",
+          "name" : "Premium-veg",
+          "type" : "foodPackage",
+          "activationDate" : "22/22/22",
+          "expiryDate" : "23/23/12",
+          "inventory" : {
+            "inventory": 10
+          }
+        },
+        "foodType" : {"id": "veg", "name": "Veg"},
         "foodCategoryWithQuantity": [
           {
             "foodCategory": {
@@ -436,9 +416,17 @@
         ]
       },
       {
-        "catalogId" : "food7",
-        "name" : "Conference-veg",
-        "foodType" : 0,
+        "commonValues" : {
+          "id" : "food6",
+          "name" : "Premium-non-veg",
+          "type" : "veg",
+          "activationDate" : "22/22/22",
+          "expiryDate" : "23/23/12",
+          "inventory" : {
+            "inventory": 10
+          }
+        },
+        "foodType" : {"id": "nonveg", "name": "Non-Veg"},
         "foodCategoryWithQuantity": [
           {
             "foodCategory": {
@@ -505,9 +493,94 @@
         ]
       },
       {
-        "catalogId" : "food8",
-        "name" : "Conference-non-veg",
-        "foodType" : 1,
+        "commonValues" : {
+          "id" : "food7",
+          "name" : "Conference-veg",
+          "type" : "veg",
+          "activationDate" : "22/22/22",
+          "expiryDate" : "23/23/12",
+          "inventory" : {
+            "inventory": 10
+          }
+        },
+        "foodType" : {"id": "veg", "name": "Veg"},
+        "foodCategoryWithQuantity": [
+          {
+            "foodCategory": {
+              "name": "Salads"
+            },
+            "quantityAllowed": 1
+          },
+          {
+            "foodCategory": {
+              "name": "Mains"
+            },
+            "quantityAllowed": 4
+          },
+          {
+            "foodCategory": {
+              "name": "Dal"
+            },
+            "quantityAllowed": 2
+          },
+          {
+            "foodCategory": {
+              "name": "Rice"
+            },
+            "quantityAllowed": 2
+          },
+          {
+            "foodCategory": {
+              "name": "Pickles/Papads"
+            },
+            "quantityAllowed": 1
+          },
+          {
+            "foodCategory": {
+              "name": "Breads"
+            },
+            "quantityAllowed": 2
+          },
+          {
+            "foodCategory": {
+              "name": "Deserts"
+            },
+            "quantityAllowed": 2
+          }
+        ],
+        "pricePerPlate" : [
+          {
+            "paxRange" : "<= 30",
+            "price" : {
+              "originalPrice" : 100.00,
+              "valueDeal" : 0,
+              "discountPercentage" : 0.00,
+              "afterDiscountPrice" : 100.00
+            }
+          },
+          {
+            "paxRange" : "> 30",
+            "price" : {
+              "originalPrice" : 100.00,
+              "valueDeal" : 1,
+              "discountPercentage" : 10.00,
+              "afterDiscountPrice" : 90.00
+            }
+          }
+        ]
+      },
+      {
+        "commonValues" : {
+          "id" : "food8",
+          "name" : "Conference-non-veg",
+          "type" : "veg",
+          "activationDate" : "22/22/22",
+          "expiryDate" : "23/23/12",
+          "inventory" : {
+            "inventory": 10
+          }
+        },
+        "foodType" : {"id": "nonveg", "name": "Non-Veg"},
         "foodCategoryWithQuantity": [
           {
             "foodCategory": {
@@ -623,81 +696,98 @@
     "isRentalOnlyAllowed" : true,
     "services": [
       {
-        "id" : "1",
-        "name" : "Catering",
-        "price" : {
-          "originalPrice" : 1000.00,
-          "valueDeal": false,
-          "discountPercentage" : 0.0,
-          "afterDiscountPrice" : 1000.00
+        "commonValues": {
+          "id" : "1",
+          "name" : "Catering",
+          "type" : "service",
+          "activationDate" : "22/2/2022",
+          "expiryDate" : "22/2/2222",
+          "inventory" : {
+            "inventory": 10
+          }
         }
       },
       {
-        "id": "2",
-        "name": "Decor",
-        "price" : {
-          "originalPrice" : 1000.00,
-          "valueDeal": false,
-          "discountPercentage" : 0.0,
-          "afterDiscountPrice" : 1000.00
+        "commonValues": {
+          "id": "2",
+          "name": "Decor",
+          "type" : "service",
+          "activationDate" : "22/2/2022",
+          "expiryDate" : "22/2/2222",
+          "inventory" : {
+            "inventory": 10
+          }
         }
       },
       {
-        "id": "3",
-        "name" : "DJ Music",
-        "price" : {
-          "originalPrice" : 1000.00,
-          "valueDeal": false,
-          "discountPercentage" : 0.0,
-          "afterDiscountPrice" : 1000.00
+        "commonValues": {
+          "id": "3",
+          "name" : "DJ Music",
+          "type" : "service",
+          "activationDate" : "22/2/2022",
+          "expiryDate" : "22/2/2222",
+          "inventory" : {
+            "inventory": 10
+          }
         }
       },
       {
-        "id": "4",
-        "name" : "Photography",
-        "price" : {
-          "originalPrice" : 1000.00,
-          "valueDeal": false,
-          "discountPercentage" : 0.0,
-          "afterDiscountPrice" : 1000.00
+        "commonValues": {
+          "id": "4",
+          "name" : "Photography",
+          "type" : "service",
+          "activationDate" : "22/2/2022",
+          "expiryDate" : "22/2/2222",
+          "inventory" : {
+            "inventory": 10
+          }
         }
       },
       {
-        "id": "5",
-        "name" : "Bouncy",
-        "price" : {
-          "originalPrice" : 1000.00,
-          "valueDeal": false,
-          "discountPercentage" : 0.0,
-          "afterDiscountPrice" : 1000.00
+        "commonValues": {
+          "id": "5",
+          "name" : "Bouncy",
+          "type" : "service",
+          "activationDate" : "22/2/2022",
+          "expiryDate" : "22/2/2222",
+          "inventory" : {
+            "inventory": 10
+          }
         }
       },
       {
-        "id": "6",
-        "name" : "Tattoo Artist",
-        "price" : {
-          "originalPrice" : 1000.00,
-          "valueDeal": false,
-          "discountPercentage" : 0.0,
-          "afterDiscountPrice" : 1000.00
+        "commonValues": {
+          "id": "6",
+          "name" : "Tattoo Artist",
+          "type" : "service",
+          "activationDate" : "22/2/2022",
+          "expiryDate" : "22/2/2222",
+          "inventory" : {
+            "inventory": 10
+          }
         }
       }
     ],
-    "restrictions": [
+    "venuePolicies" : [
       {
-        "id" : "1",
-        "title" : "Restriction 1",
-        "description" : "This is restriction 1"
+        "id": "policy1",
+        "name" : "Catering Policy",
+        "description" : "This is catering policy"
       },
       {
-        "id": "2",
-        "title" : "Restriction 2",
-        "description" : "This is restriction 2"
+        "id": "policy2",
+        "name" : "Barat Policy1",
+        "description" : "This is barat policy"
       },
       {
-        "id": "3",
-        "title" : "Restriction 3",
-        "description" : "This is restriction 3"
+        "id": "policy3",
+        "name" : "Barat Policy2",
+        "description" : "This is barat policy"
+      },
+      {
+        "id": "policy4",
+        "name" : "Barat Policy3",
+        "description" : "This is barat policy"
       }
     ],
     "rentalOnlyPrice" : {
@@ -711,6 +801,19 @@
       "valueDeal": false,
       "discountPercentage" : 0.0,
       "afterDiscountPrice" : 2000.00
+    },
+    "dimensions" : {
+      "length": 100,
+      "breadth": 150,
+      "height": 40
+    },
+    "level" : {
+      "id" : "level1",
+      "name" : "Ground"
+    },
+    "operatingTime" : {
+      "startTime" : "9:00 AM",
+      "endTime" : "9:00 PM"
     }
   },
   "status" : 0,

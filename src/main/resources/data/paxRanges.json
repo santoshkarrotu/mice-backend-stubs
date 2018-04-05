@@ -1,0 +1,62 @@
+[
+  {
+    "paxRange" : {
+      "id": "1",
+      "displayName" : "Under 20",
+      "minNumberOfPax" : 0,
+      "maxNumberOfPax" : 20
+    },
+    "status" : 0,
+    "errorList" : null
+  },
+  {
+    "paxRange" : {
+      "id": "2",
+      "displayName" : "50-100",
+      "minNumberOfPax" : 50,
+      "maxNumberOfPax" : 100
+    },
+    "status" : 0,
+    "errorList" : null
+  },
+  {
+    "paxRange" : {
+      "id": "3",
+      "displayName" : "100-200",
+      "minNumberOfPax" : 100,
+      "maxNumberOfPax" : 200
+    },
+    "status" : 0,
+    "errorList" : null
+  },
+  {
+    "paxRange" : {
+      "id": "4",
+      "displayName" : "200-300",
+      "minNumberOfPax" : 200,
+      "maxNumberOfPax" : 300
+    },
+    "status" : 0,
+    "errorList" : null
+  },
+  {
+    "paxRange" : {
+      "id": "5",
+      "displayName" : "300-500",
+      "minNumberOfPax" : 300,
+      "maxNumberOfPax" : 500
+    },
+    "status" : 0,
+    "errorList" : null
+  },
+  {
+    "paxRange" : {
+      "id": "6",
+      "displayName" : "Over 500",
+      "minNumberOfPax" : 500,
+      "maxNumberOfPax" : 100000
+    },
+    "status" : 0,
+    "errorList" : null
+  }
+]

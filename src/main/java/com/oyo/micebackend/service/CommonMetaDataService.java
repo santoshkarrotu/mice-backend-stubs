@@ -4,8 +4,8 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.oyo.aggregation.mice.TFoodAggregationService;
-import com.oyo.aggregation.mice.TFoodPackageResponse;
+import com.oyo.aggregation.common.TCityResponse;
+import com.oyo.aggregation.common.TCommonMetadataService;
 import org.apache.thrift.TException;
 import org.springframework.stereotype.Component;
 
@@ -13,26 +13,26 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class FoodAggregationService implements TFoodAggregationService.Iface {
+public class CommonMetaDataService implements TCommonMetadataService.Iface {
     @Override
-    public List<TFoodPackageResponse> listFoodPackages(List<String> catalogIds, String locale) throws TException {
-        List<TFoodPackageResponse> tFoodPackageResponses = null;
+    public List<TCityResponse> listCities(String locale, boolean getPakageCity, boolean getMiceCity) throws TException {
+        List<TCityResponse> tMiceCityResponses = new ArrayList<>();
         try {
-            File file = getResourceAsFile("/data/foodPackageResponseList.json");
-            tFoodPackageResponses = new ObjectMapper().readValue(file, new TypeReference<List<TFoodPackageResponse>>(){});
-//            tFoodPackages = new ObjectMapper().readValue(new File("/Users/santosh/oyo/mice-backend-stubs/src/main/resources/data/foodPackageList.json"), new TypeReference<List<TFoodPackage>>(){});
-            return tFoodPackageResponses;
-        } catch (JsonParseException e) {
+            File file = getResourceAsFile("/data/miceCities.json");
+            tMiceCityResponses = new ObjectMapper().readValue(file, new TypeReference<List<TCityResponse>>(){});
+            return tMiceCityResponses;
+        }catch (JsonParseException e) {
             e.printStackTrace();
         } catch (JsonMappingException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return tFoodPackageResponses;
+        return null;
     }
     private File getResourceAsFile(String resourcePath) {
         try {
