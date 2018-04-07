@@ -77,16 +77,186 @@
         },
         "priceRental" : "500",
         "minPrice": "500",
-        "food1" : "300",
-        "food2" : "900",
-        "food3" : "700",
-        "food4" : "900",
-        "food5" : "740",
-        "food6" : "900",
-        "food7" : "700",
-        "food8" : "900",
-        "food9" : "700",
-        "food10" : "900"
+        "food1": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1000"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "800"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "700"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "600"
+          }
+        },
+        "food2": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1100"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "850"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "750"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
+        },
+        "food3": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1200"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "900"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "850"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "750"
+          }
+        },
+        "food4": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
+        },
+        "food5": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
+        },
+        "food6": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
+        },
+        "food7": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
+        },
+        "food8": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
+        },
+        "food9": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
+        },
+        "food10": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
+        }
       },
       "status": "success"
     },
@@ -168,64 +338,184 @@
         "priceRental": "500",
         "minPrice": "620",
         "food1": {
-          "metaDataIdOfRange1": "1000",
-          "metaDataIdOfRange2": "800",
-          "metaDataIdOfRange3": "700",
-          "metaDataIdOfRange4": "600"
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1000"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "800"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "700"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "600"
+          }
         },
         "food2": {
-          "metaDataIdOfRange1": "1100",
-          "metaDataIdOfRange2": "850",
-          "metaDataIdOfRange3": "750",
-          "metaDataIdOfRange4": "650"
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1100"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "850"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "750"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
         "food3": {
-          "metaDataIdOfRange1": "1200",
-          "metaDataIdOfRange2": "900",
-          "metaDataIdOfRange3": "850",
-          "metaDataIdOfRange4": "750"
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1200"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "900"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "850"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "750"
+          }
         },
         "food4": {
-          "metaDataIdOfRange1": "1250",
-          "metaDataIdOfRange2": "950",
-          "metaDataIdOfRange3": "870",
-          "metaDataIdOfRange4": "650"
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
         "food5": {
-          "metaDataIdOfRange1": "1250",
-          "metaDataIdOfRange2": "950",
-          "metaDataIdOfRange3": "870",
-          "metaDataIdOfRange4": "650"
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
         "food6": {
-          "metaDataIdOfRange1": "1250",
-          "metaDataIdOfRange2": "950",
-          "metaDataIdOfRange3": "870",
-          "metaDataIdOfRange4": "650"
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
         "food7": {
-          "metaDataIdOfRange1": "1250",
-          "metaDataIdOfRange2": "950",
-          "metaDataIdOfRange3": "870",
-          "metaDataIdOfRange4": "650"
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
         "food8": {
-          "metaDataIdOfRange1": "1250",
-          "metaDataIdOfRange2": "950",
-          "metaDataIdOfRange3": "870",
-          "metaDataIdOfRange4": "650"
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
         "food9": {
-          "metaDataIdOfRange1": "1250",
-          "metaDataIdOfRange2": "950",
-          "metaDataIdOfRange3": "870",
-          "metaDataIdOfRange4": "650"
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
         "food10": {
-          "metaDataIdOfRange1": "1250",
-          "metaDataIdOfRange2": "950",
-          "metaDataIdOfRange3": "870",
-          "metaDataIdOfRange4": "650"
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         }
       },
       "status": "success"
@@ -307,65 +597,185 @@
         },
         "priceRental" : "500",
         "minPrice": "750",
-        "food1" : {
-          "metaDataIdOfRange1":"1000",
-          "metaDataIdOfRange2":"800",
-          "metaDataIdOfRange3":"700",
-          "metaDataIdOfRange4":"600"
+        "food1": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1000"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "800"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "700"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "600"
+          }
         },
-        "food2" : {
-          "metaDataIdOfRange1":"1100",
-          "metaDataIdOfRange2":"850",
-          "metaDataIdOfRange3":"750",
-          "metaDataIdOfRange4":"650"
+        "food2": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1100"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "850"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "750"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food3" : {
-          "metaDataIdOfRange1":"1200",
-          "metaDataIdOfRange2":"900",
-          "metaDataIdOfRange3":"850",
-          "metaDataIdOfRange4":"750"
+        "food3": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1200"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "900"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "850"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "750"
+          }
         },
-        "food4" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food4": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food5" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food5": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food6" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food6": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food7" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food7": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food8" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food8": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food9" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food9": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food10" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food10": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         }
       },
       "status": "success"
@@ -447,65 +857,185 @@
         },
         "priceRental" : "500",
         "minPrice": "120",
-        "food1" : {
-          "metaDataIdOfRange1":"1000",
-          "metaDataIdOfRange2":"800",
-          "metaDataIdOfRange3":"700",
-          "metaDataIdOfRange4":"600"
+        "food1": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1000"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "800"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "700"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "600"
+          }
         },
-        "food2" : {
-          "metaDataIdOfRange1":"1100",
-          "metaDataIdOfRange2":"850",
-          "metaDataIdOfRange3":"750",
-          "metaDataIdOfRange4":"650"
+        "food2": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1100"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "850"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "750"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food3" : {
-          "metaDataIdOfRange1":"1200",
-          "metaDataIdOfRange2":"900",
-          "metaDataIdOfRange3":"850",
-          "metaDataIdOfRange4":"750"
+        "food3": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1200"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "900"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "850"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "750"
+          }
         },
-        "food4" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food4": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food5" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food5": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food6" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food6": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food7" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food7": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food8" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food8": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food9" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food9": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food10" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food10": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         }
       },
       "status": "success"
@@ -587,65 +1117,185 @@
         },
         "priceRental" : "500",
         "minPrice": "400",
-        "food1" : {
-          "metaDataIdOfRange1":"1000",
-          "metaDataIdOfRange2":"800",
-          "metaDataIdOfRange3":"700",
-          "metaDataIdOfRange4":"600"
+        "food1": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1000"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "800"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "700"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "600"
+          }
         },
-        "food2" : {
-          "metaDataIdOfRange1":"1100",
-          "metaDataIdOfRange2":"850",
-          "metaDataIdOfRange3":"750",
-          "metaDataIdOfRange4":"650"
+        "food2": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1100"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "850"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "750"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food3" : {
-          "metaDataIdOfRange1":"1200",
-          "metaDataIdOfRange2":"900",
-          "metaDataIdOfRange3":"850",
-          "metaDataIdOfRange4":"750"
+        "food3": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1200"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "900"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "850"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "750"
+          }
         },
-        "food4" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food4": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food5" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food5": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food6" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food6": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food7" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food7": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food8" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food8": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food9" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food9": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food10" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food10": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         }
       },
       "status": "success"
@@ -727,65 +1377,185 @@
         },
         "priceRental" : "500",
         "minPrice": "600",
-        "food1" : {
-          "metaDataIdOfRange1":"1000",
-          "metaDataIdOfRange2":"800",
-          "metaDataIdOfRange3":"700",
-          "metaDataIdOfRange4":"600"
+        "food1": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1000"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "800"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "700"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "600"
+          }
         },
-        "food2" : {
-          "metaDataIdOfRange1":"1100",
-          "metaDataIdOfRange2":"850",
-          "metaDataIdOfRange3":"750",
-          "metaDataIdOfRange4":"650"
+        "food2": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1100"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "850"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "750"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food3" : {
-          "metaDataIdOfRange1":"1200",
-          "metaDataIdOfRange2":"900",
-          "metaDataIdOfRange3":"850",
-          "metaDataIdOfRange4":"750"
+        "food3": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1200"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "900"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "850"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "750"
+          }
         },
-        "food4" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food4": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food5" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food5": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food6" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food6": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food7" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food7": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food8" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food8": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food9" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food9": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         },
-        "food10" : {
-          "metaDataIdOfRange1":"1250",
-          "metaDataIdOfRange2":"950",
-          "metaDataIdOfRange3":"870",
-          "metaDataIdOfRange4":"650"
+        "food10": {
+          "1" : {
+            "metaDataIdOfRange" : "M1",
+            "price" : "1250"
+          },
+          "2" : {
+            "metaDataIdOfRange" : "M2",
+            "price" : "950"
+          },
+          "3" : {
+            "metaDataIdOfRange" : "M3",
+            "price" : "870"
+          },
+          "4" : {
+            "metaDataIdOfRange" : "M4",
+            "price" : "650"
+          }
         }
       },
       "status": "success"

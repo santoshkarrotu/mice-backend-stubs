@@ -1,7 +1,150 @@
 {
   "data": {
     "bamEmail": "tarun.karamshetty@oyorooms.com",
-    "food1": "600",
+    "food1": {
+      "1" : {
+        "metaDataIdOfRange" : "M1",
+        "price" : "1000"
+      },
+      "2" : {
+        "metaDataIdOfRange" : "M2",
+        "price" : "800"
+      },
+      "3" : {
+        "metaDataIdOfRange" : "M3",
+        "price" : "700"
+      },
+      "4" : {
+        "metaDataIdOfRange" : "M4",
+        "price" : "600"
+      }
+    },
+    "food2": {
+      "1" : {
+        "metaDataIdOfRange" : "M1",
+        "price" : "1100"
+      },
+      "2" : {
+        "metaDataIdOfRange" : "M2",
+        "price" : "850"
+      },
+      "3" : {
+        "metaDataIdOfRange" : "M3",
+        "price" : "750"
+      },
+      "4" : {
+        "metaDataIdOfRange" : "M4",
+        "price" : "650"
+      }
+    },
+    "food3": {
+      "1" : {
+        "metaDataIdOfRange" : "M1",
+        "price" : "1200"
+      },
+      "2" : {
+        "metaDataIdOfRange" : "M2",
+        "price" : "900"
+      },
+      "3" : {
+        "metaDataIdOfRange" : "M3",
+        "price" : "850"
+      },
+      "4" : {
+        "metaDataIdOfRange" : "M4",
+        "price" : "750"
+      }
+    },
+    "food4": {
+      "1" : {
+        "metaDataIdOfRange" : "M1",
+        "price" : "1250"
+      },
+      "2" : {
+        "metaDataIdOfRange" : "M2",
+        "price" : "950"
+      },
+      "3" : {
+        "metaDataIdOfRange" : "M3",
+        "price" : "870"
+      },
+      "4" : {
+        "metaDataIdOfRange" : "M4",
+        "price" : "650"
+      }
+    },
+    "food5": {
+      "1" : {
+        "metaDataIdOfRange" : "M1",
+        "price" : "1250"
+      },
+      "2" : {
+        "metaDataIdOfRange" : "M2",
+        "price" : "950"
+      },
+      "3" : {
+        "metaDataIdOfRange" : "M3",
+        "price" : "870"
+      },
+      "4" : {
+        "metaDataIdOfRange" : "M4",
+        "price" : "650"
+      }
+    },
+    "food6": {
+      "1" : {
+        "metaDataIdOfRange" : "M1",
+        "price" : "1250"
+      },
+      "2" : {
+        "metaDataIdOfRange" : "M2",
+        "price" : "950"
+      },
+      "3" : {
+        "metaDataIdOfRange" : "M3",
+        "price" : "870"
+      },
+      "4" : {
+        "metaDataIdOfRange" : "M4",
+        "price" : "650"
+      }
+    },
+    "food7": {
+      "1" : {
+        "metaDataIdOfRange" : "M1",
+        "price" : "1250"
+      },
+      "2" : {
+        "metaDataIdOfRange" : "M2",
+        "price" : "950"
+      },
+      "3" : {
+        "metaDataIdOfRange" : "M3",
+        "price" : "870"
+      },
+      "4" : {
+        "metaDataIdOfRange" : "M4",
+        "price" : "650"
+      }
+    },
+    "food8": {
+      "1" : {
+        "metaDataIdOfRange" : "M1",
+        "price" : "1250"
+      },
+      "2" : {
+        "metaDataIdOfRange" : "M2",
+        "price" : "950"
+      },
+      "3" : {
+        "metaDataIdOfRange" : "M3",
+        "price" : "870"
+      },
+      "4" : {
+        "metaDataIdOfRange" : "M4",
+        "price" : "650"
+      }
+    },
     "images_keys": "4",
     "birthdayImages": {
       "1": {
@@ -17,17 +160,9 @@
         "image": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/3040_birthdayImages_image_4"
       }
     },
-    "food3": "700",
     "city": "Gurgaon",
-    "food2": "650",
     "plotNo": "Plot No 45",
-    "food5": "750",
-    "food4": "733",
     "about": "It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests. It's a big green farm house suitable for hosting grand weddings accomodating upto 1000 guests.",
-    "food7": "850",
-    "food6": "800",
-    "food9": "950",
-    "food8": "900",
     "TnCs": {
       "cmsId": "3984",
       "templateName": "TnCTemplate",
@@ -89,7 +224,6 @@
     },
     "cmsId": "3040",
     "weddingImages_keys": "4",
-    "food10": "1000",
     "priceRental": "30000",
     "locality": "COnnaught Place",
     "birthdayImages_keys": "4",

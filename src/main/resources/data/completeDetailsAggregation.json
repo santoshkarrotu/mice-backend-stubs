@@ -69,7 +69,7 @@
           },
           {
             "foodCategory": {
-              "name": "Pickles/Papads"
+              "name": "Pickle"
             },
             "quantityAllowed": 1
           },
@@ -81,7 +81,7 @@
           },
           {
             "foodCategory": {
-              "name": "Deserts"
+              "name": "Dessert"
             },
             "quantityAllowed": 2
           }
@@ -146,7 +146,7 @@
           },
           {
             "foodCategory": {
-              "name": "Pickles/Papads"
+              "name": "Pickle"
             },
             "quantityAllowed": 1
           },
@@ -158,7 +158,7 @@
           },
           {
             "foodCategory": {
-              "name": "Deserts"
+              "name": "Dessert"
             },
             "quantityAllowed": 2
           }
@@ -223,7 +223,7 @@
           },
           {
             "foodCategory": {
-              "name": "Pickles/Papads"
+              "name": "Pickle"
             },
             "quantityAllowed": 1
           },
@@ -235,7 +235,7 @@
           },
           {
             "foodCategory": {
-              "name": "Deserts"
+              "name": "Dessert"
             },
             "quantityAllowed": 2
           }
@@ -300,7 +300,7 @@
           },
           {
             "foodCategory": {
-              "name": "Pickles/Papads"
+              "name": "Pickle"
             },
             "quantityAllowed": 1
           },
@@ -312,7 +312,7 @@
           },
           {
             "foodCategory": {
-              "name": "Deserts"
+              "name": "Dessert"
             },
             "quantityAllowed": 2
           }
@@ -377,7 +377,7 @@
           },
           {
             "foodCategory": {
-              "name": "Pickles/Papads"
+              "name": "Pickle"
             },
             "quantityAllowed": 1
           },
@@ -389,7 +389,7 @@
           },
           {
             "foodCategory": {
-              "name": "Deserts"
+              "name": "Dessert"
             },
             "quantityAllowed": 2
           }
@@ -454,7 +454,7 @@
           },
           {
             "foodCategory": {
-              "name": "Pickles/Papads"
+              "name": "Pickle"
             },
             "quantityAllowed": 1
           },
@@ -466,7 +466,7 @@
           },
           {
             "foodCategory": {
-              "name": "Deserts"
+              "name": "Dessert"
             },
             "quantityAllowed": 2
           }
@@ -531,7 +531,7 @@
           },
           {
             "foodCategory": {
-              "name": "Pickles/Papads"
+              "name": "Pickle"
             },
             "quantityAllowed": 1
           },
@@ -543,7 +543,7 @@
           },
           {
             "foodCategory": {
-              "name": "Deserts"
+              "name": "Dessert"
             },
             "quantityAllowed": 2
           }
@@ -608,7 +608,7 @@
           },
           {
             "foodCategory": {
-              "name": "Pickles/Papads"
+              "name": "Pickle"
             },
             "quantityAllowed": 1
           },
@@ -620,7 +620,7 @@
           },
           {
             "foodCategory": {
-              "name": "Deserts"
+              "name": "Dessert"
             },
             "quantityAllowed": 2
           }
