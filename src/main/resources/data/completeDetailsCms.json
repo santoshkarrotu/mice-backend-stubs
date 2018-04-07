@@ -4,144 +4,176 @@
     "food1": {
       "1" : {
         "metaDataIdOfRange" : "M1",
+        "displayName" : "50 - 100",
         "price" : "1000"
       },
       "2" : {
         "metaDataIdOfRange" : "M2",
+        "displayName" : "100 - 150",
         "price" : "800"
       },
       "3" : {
         "metaDataIdOfRange" : "M3",
+        "displayName" : "150 - 200",
         "price" : "700"
       },
       "4" : {
         "metaDataIdOfRange" : "M4",
+        "displayName" : "Above 200",
         "price" : "600"
       }
     },
     "food2": {
       "1" : {
         "metaDataIdOfRange" : "M1",
+        "displayName" : "50 - 100",
         "price" : "1100"
       },
       "2" : {
         "metaDataIdOfRange" : "M2",
+        "displayName" : "100 - 150",
         "price" : "850"
       },
       "3" : {
         "metaDataIdOfRange" : "M3",
+        "displayName" : "150 - 200",
         "price" : "750"
       },
       "4" : {
         "metaDataIdOfRange" : "M4",
+        "displayName" : "Above 200",
         "price" : "650"
       }
     },
     "food3": {
       "1" : {
         "metaDataIdOfRange" : "M1",
+        "displayName" : "50 - 100",
         "price" : "1200"
       },
       "2" : {
         "metaDataIdOfRange" : "M2",
+        "displayName" : "100 - 150",
         "price" : "900"
       },
       "3" : {
         "metaDataIdOfRange" : "M3",
+        "displayName" : "150 - 200",
         "price" : "850"
       },
       "4" : {
         "metaDataIdOfRange" : "M4",
+        "displayName" : "Above 200",
         "price" : "750"
       }
     },
     "food4": {
       "1" : {
         "metaDataIdOfRange" : "M1",
+        "displayName" : "50 - 100",
         "price" : "1250"
       },
       "2" : {
         "metaDataIdOfRange" : "M2",
+        "displayName" : "100 - 150",
         "price" : "950"
       },
       "3" : {
         "metaDataIdOfRange" : "M3",
+        "displayName" : "150 - 200",
         "price" : "870"
       },
       "4" : {
         "metaDataIdOfRange" : "M4",
+        "displayName" : "Above 200",
         "price" : "650"
       }
     },
     "food5": {
       "1" : {
         "metaDataIdOfRange" : "M1",
+        "displayName" : "50 - 100",
         "price" : "1250"
       },
       "2" : {
         "metaDataIdOfRange" : "M2",
+        "displayName" : "100 - 150",
         "price" : "950"
       },
       "3" : {
         "metaDataIdOfRange" : "M3",
+        "displayName" : "150 - 200",
         "price" : "870"
       },
       "4" : {
         "metaDataIdOfRange" : "M4",
+        "displayName" : "Above 200",
         "price" : "650"
       }
     },
     "food6": {
       "1" : {
         "metaDataIdOfRange" : "M1",
+        "displayName" : "50 - 100",
         "price" : "1250"
       },
       "2" : {
         "metaDataIdOfRange" : "M2",
+        "displayName" : "100 - 150",
         "price" : "950"
       },
       "3" : {
         "metaDataIdOfRange" : "M3",
+        "displayName" : "150 - 200",
         "price" : "870"
       },
       "4" : {
         "metaDataIdOfRange" : "M4",
+        "displayName" : "Above 200",
         "price" : "650"
       }
     },
     "food7": {
       "1" : {
         "metaDataIdOfRange" : "M1",
+        "displayName" : "50 - 100",
         "price" : "1250"
       },
       "2" : {
         "metaDataIdOfRange" : "M2",
+        "displayName" : "100 - 150",
         "price" : "950"
       },
       "3" : {
         "metaDataIdOfRange" : "M3",
+        "displayName" : "150 - 200",
         "price" : "870"
       },
       "4" : {
         "metaDataIdOfRange" : "M4",
+        "displayName" : "Above 200",
         "price" : "650"
       }
     },
     "food8": {
       "1" : {
         "metaDataIdOfRange" : "M1",
+        "displayName" : "50 - 100",
         "price" : "1250"
       },
       "2" : {
         "metaDataIdOfRange" : "M2",
+        "displayName" : "100 - 150",
         "price" : "950"
       },
       "3" : {
         "metaDataIdOfRange" : "M3",
+        "displayName" : "150 - 200",
         "price" : "870"
       },
       "4" : {
         "metaDataIdOfRange" : "M4",
+        "displayName" : "Above 200",
         "price" : "650"
       }
     },
