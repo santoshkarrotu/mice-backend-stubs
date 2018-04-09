@@ -673,6 +673,14 @@
         "name" : "AC"
       },
       {
+        "id": "2",
+        "name": "Wheelchair Accessible"
+      },
+      {
+        "id": "3",
+        "name": "Parking"
+      },
+      {
         "id": "4",
         "name": "Wifi"
       },
@@ -759,6 +767,42 @@
         "commonValues": {
           "id": "6",
           "name" : "Tattoo Artist",
+          "type" : "service",
+          "activationDate" : "22/2/2022",
+          "expiryDate" : "22/2/2222",
+          "inventory" : {
+            "inventory": 10
+          }
+        }
+      },
+      {
+        "commonValues": {
+          "id": "7",
+          "name" : "Dance Floor",
+          "type" : "service",
+          "activationDate" : "22/2/2022",
+          "expiryDate" : "22/2/2222",
+          "inventory" : {
+            "inventory": 10
+          }
+        }
+      },
+      {
+        "commonValues": {
+          "id": "8",
+          "name" : "Gym",
+          "type" : "service",
+          "activationDate" : "22/2/2022",
+          "expiryDate" : "22/2/2222",
+          "inventory" : {
+            "inventory": 10
+          }
+        }
+      },
+      {
+        "commonValues": {
+          "id": "9",
+          "name" : "Spa",
           "type" : "service",
           "activationDate" : "22/2/2022",
           "expiryDate" : "22/2/2222",
