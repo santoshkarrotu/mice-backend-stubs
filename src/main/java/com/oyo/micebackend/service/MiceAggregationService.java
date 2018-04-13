@@ -18,8 +18,44 @@ import java.util.List;
 @Component
 public class MiceAggregationService implements TMiceAggregationService.Iface {
 
+//    @Override
+//    public TPropertyDetailedResponse getPropertyDetails(String catalogId, String locale) throws TException {
+//        TPropertyDetailedResponse tPropertyDetailedResponse = null;
+//        try {
+//            System.out.println("This is getPropertyDetails");
+//            File file = getResourceAsFile("/data/completeDetailsAggregation.json");
+//            tPropertyDetailedResponse = new ObjectMapper().readValue(file, TPropertyDetailedResponse.class);
+////            System.out.println(tPropertyDetailedResponse);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        return tPropertyDetailedResponse;
+//    }
+
     @Override
-    public TPropertyDetailedResponse getPropertyDetails(String catalogId, String locale) throws TException {
+    public List<TPropertySmallResponse> getPropertyListingWithFewDetails(List<String> catalogIds, String locale) throws TException {
+        return null;
+    }
+
+//    @Override
+//    public List<TPropertyStandardResponse> getPropertyListingWithStandardDetails(List<String> catalogIds, String locale) throws TException{
+//        List<TPropertyStandardResponse> tPropertyStandardResponses = new ArrayList<>();
+//        try
+//        {
+//            File file = getResourceAsFile("/data/standardDetailsAggregation.json");
+//            TPropertyStandardResponse tPropertyStandardResponse = new TPropertyStandardResponse(null, TStatus.SUCCESS, null);
+//            tPropertyStandardResponses.add(tPropertyStandardResponse);
+//            List<TPropertyStandardResponse> tPropertyStandardResponses1  = new ObjectMapper().readValue(file, new TypeReference<List<TPropertyStandardResponse>>(){});
+//            return tPropertyStandardResponses1;
+//        }
+//        catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        return tPropertyStandardResponses;
+//    }
+
+    @Override
+    public TPropertyDetailedResponse getPropertyDetails(String catalogId, String locale, TPriceAttributes priceAttributes) throws TException {
         TPropertyDetailedResponse tPropertyDetailedResponse = null;
         try {
             System.out.println("This is getPropertyDetails");
@@ -33,12 +69,7 @@ public class MiceAggregationService implements TMiceAggregationService.Iface {
     }
 
     @Override
-    public List<TPropertySmallResponse> getPropertyListingWithFewDetails(List<String> catalogIds, String locale) throws TException {
-        return null;
-    }
-
-    @Override
-    public List<TPropertyStandardResponse> getPropertyListingWithStandardDetails(List<String> catalogIds, String locale) throws TException{
+    public List<TPropertyStandardResponse> getPropertyListingWithStandardDetails(List<String> catalogIds, String locale, TPriceAttributes priceAttributes) throws TException {
         List<TPropertyStandardResponse> tPropertyStandardResponses = new ArrayList<>();
         try
         {
@@ -53,6 +84,7 @@ public class MiceAggregationService implements TMiceAggregationService.Iface {
         }
         return tPropertyStandardResponses;
     }
+
     private File getResourceAsFile(String resourcePath) {
         try {
             InputStream in = getClass().getResourceAsStream(resourcePath);

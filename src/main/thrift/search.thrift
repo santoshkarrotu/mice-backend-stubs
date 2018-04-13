@@ -41,12 +41,12 @@ struct TPackagesListRequest{
 struct TBanquetListRequest{
     1: required string location;
     2: optional string typeOfEvent;
-    3: optional i32 noOfGuests;
+    3: optional string noOfGuests;
     4: optional dateTime dateTime;
     5: optional bool rentalOnly;
 }
 
-service TSearchService {
+service TSearchService{
 
     TSearchResponse getBanquetsList(1: TBanquetListRequest banquetListRequest);
 

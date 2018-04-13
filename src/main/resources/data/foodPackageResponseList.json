@@ -2,7 +2,7 @@
   {
     "foodPackage": {
       "commonValues" : {
-        "id" : "food1",
+        "id" : "04c322b0-3446-4c99-ab4d-811b07e69c08",
         "name" : "Standard-Veg",
         "type" : "foodPackage",
         "activationDate" : "22/22/22",
@@ -27,7 +27,7 @@
         },
         {
           "foodCategory": {
-            "name": "Dal"
+            "name": "Dalllllll"
           },
           "quantityAllowed": 2
         },
@@ -83,7 +83,7 @@
   {
     "foodPackage": {
       "commonValues" : {
-        "id" : "food2",
+        "id" : "721cbbc4-f263-4455-8131-1f44b2e02346",
         "name" : "Standard-non-veg",
         "type" : "foodPackage",
         "activationDate" : "22/22/22",
@@ -164,7 +164,7 @@
   {
     "foodPackage": {
       "commonValues" : {
-        "id" : "food3",
+        "id" : "f58f675a-828b-4451-8373-1d03ddfb2fa6",
         "name" : "Deluxe-veg",
         "type" : "foodPackage",
         "activationDate" : "22/22/22",
@@ -245,7 +245,7 @@
   {
     "foodPackage": {
       "commonValues" : {
-        "id" : "food4",
+        "id" : "8eeef41c-c5a1-47d6-9587-187409968f34",
         "name" : "Deluxe-non-veg",
         "type" : "foodPackage",
         "activationDate" : "22/22/22",
@@ -326,7 +326,7 @@
   {
     "foodPackage": {
       "commonValues" : {
-        "id" : "food5",
+        "id" : "0edd3fa7-66d9-496f-9e6c-76982de5593e",
         "name" : "Premium-veg",
         "type" : "foodPackage",
         "activationDate" : "22/22/22",
@@ -407,7 +407,7 @@
   {
     "foodPackage": {
       "commonValues" : {
-        "id" : "food6",
+        "id" : "6d6259b4-df18-499a-80bf-7df2d2d7f2a0",
         "name" : "Premium-non-veg",
         "type" : "foodPackage",
         "activationDate" : "22/22/22",
@@ -488,7 +488,7 @@
   {
     "foodPackage":   {
       "commonValues" : {
-        "id" : "food7",
+        "id" : "38f9836c-47ad-4c7e-8d62-d069eae071fa",
         "name" : "Conference-veg",
         "type" : "foodPackage",
         "activationDate" : "22/22/22",
@@ -569,170 +569,8 @@
   {
     "foodPackage":   {
       "commonValues" : {
-        "id" : "food8",
+        "id" : "8301e192-1786-4284-a6b2-1ba7d09581b5",
         "name" : "Conference-non-veg",
-        "type" : "foodPackage",
-        "activationDate" : "22/22/22",
-        "expiryDate" : "23/23/12",
-        "inventory" : {
-          "inventory": 10
-        }
-      },
-      "foodType" : {"id": "nonveg", "name": "Non-Veg"},
-      "foodCategoryWithQuantity": [
-        {
-          "foodCategory": {
-            "name": "Salads"
-          },
-          "quantityAllowed": 1
-        },
-        {
-          "foodCategory": {
-            "name": "Mains"
-          },
-          "quantityAllowed": 4
-        },
-        {
-          "foodCategory": {
-            "name": "Dal"
-          },
-          "quantityAllowed": 2
-        },
-        {
-          "foodCategory": {
-            "name": "Rice"
-          },
-          "quantityAllowed": 2
-        },
-        {
-          "foodCategory": {
-            "name": "Pickle"
-          },
-          "quantityAllowed": 1
-        },
-        {
-          "foodCategory": {
-            "name": "Breads"
-          },
-          "quantityAllowed": 2
-        },
-        {
-          "foodCategory": {
-            "name": "Dessert"
-          },
-          "quantityAllowed": 2
-        }
-      ],
-      "pricePerPlate" : [
-        {
-          "paxRange" : "<= 30",
-          "price" : {
-            "originalPrice" : 100.00,
-            "valueDeal" : 0,
-            "discountPercentage" : 0.00,
-            "afterDiscountPrice" : 100.00
-          }
-        },
-        {
-          "paxRange" : "> 30",
-          "price" : {
-            "originalPrice" : 100.00,
-            "valueDeal" : 1,
-            "discountPercentage" : 10.00,
-            "afterDiscountPrice" : 90.00
-          }
-        }
-      ]
-    },
-    "status" : 0,
-    "errorList" : null
-  },
-  {
-    "foodPackage":  {
-      "commonValues" : {
-        "id" : "food9",
-        "name" : "Exclusive-veg",
-        "type" : "foodPackage",
-        "activationDate" : "22/22/22",
-        "expiryDate" : "23/23/12",
-        "inventory" : {
-          "inventory": 10
-        }
-      },
-      "foodType" : {"id": "veg", "name": "Veg"},
-      "foodCategoryWithQuantity": [
-        {
-          "foodCategory": {
-            "name": "Salads"
-          },
-          "quantityAllowed": 1
-        },
-        {
-          "foodCategory": {
-            "name": "Mains"
-          },
-          "quantityAllowed": 4
-        },
-        {
-          "foodCategory": {
-            "name": "Dal"
-          },
-          "quantityAllowed": 2
-        },
-        {
-          "foodCategory": {
-            "name": "Rice"
-          },
-          "quantityAllowed": 2
-        },
-        {
-          "foodCategory": {
-            "name": "Pickle"
-          },
-          "quantityAllowed": 1
-        },
-        {
-          "foodCategory": {
-            "name": "Breads"
-          },
-          "quantityAllowed": 2
-        },
-        {
-          "foodCategory": {
-            "name": "Dessert"
-          },
-          "quantityAllowed": 2
-        }
-      ],
-      "pricePerPlate" : [
-        {
-          "paxRange" : "<= 30",
-          "price" : {
-            "originalPrice" : 100.00,
-            "valueDeal" : 0,
-            "discountPercentage" : 0.00,
-            "afterDiscountPrice" : 100.00
-          }
-        },
-        {
-          "paxRange" : "> 30",
-          "price" : {
-            "originalPrice" : 100.00,
-            "valueDeal" : 1,
-            "discountPercentage" : 10.00,
-            "afterDiscountPrice" : 90.00
-          }
-        }
-      ]
-    },
-    "status" : 0,
-    "errorList" : null
-  },
-  {
-    "foodPackage":   {
-      "commonValues" : {
-        "id" : "food10",
-        "name" : "Exclusive-nonveg",
         "type" : "foodPackage",
         "activationDate" : "22/22/22",
         "expiryDate" : "23/23/12",

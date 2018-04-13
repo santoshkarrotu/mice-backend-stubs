@@ -2,7 +2,7 @@
   "data": [
     {
       "data": {
-        "catalogId" : "food1",
+        "catalogId" : "04c322b0-3446-4c99-ab4d-811b07e69c08",
         "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
         "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
         "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
@@ -24,7 +24,7 @@
     },
     {
       "data": {
-        "catalogId" : "food2",
+        "catalogId" : "721cbbc4-f263-4455-8131-1f44b2e02346",
         "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
         "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
         "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
@@ -46,7 +46,7 @@
     },
     {
       "data": {
-        "catalogId" : "food3",
+        "catalogId" : "f58f675a-828b-4451-8373-1d03ddfb2fa6",
         "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
         "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
         "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
@@ -68,7 +68,7 @@
     },
     {
       "data": {
-        "catalogId" : "food4",
+        "catalogId" : "8eeef41c-c5a1-47d6-9587-187409968f34",
         "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
         "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
         "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
@@ -90,7 +90,7 @@
     },
     {
       "data": {
-        "catalogId" : "food5",
+        "catalogId" : "0edd3fa7-66d9-496f-9e6c-76982de5593e",
         "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
         "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
         "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
@@ -112,7 +112,7 @@
     },
     {
       "data": {
-        "catalogId" : "food6",
+        "catalogId" : "6d6259b4-df18-499a-80bf-7df2d2d7f2a0",
         "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
         "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
         "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
@@ -134,7 +134,7 @@
     },
     {
       "data": {
-        "catalogId" : "food7",
+        "catalogId" : "38f9836c-47ad-4c7e-8d62-d069eae071fa",
         "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
         "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
         "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
@@ -156,56 +156,12 @@
     },
     {
       "data": {
-        "catalogId" : "food8",
+        "catalogId" : "8301e192-1786-4284-a6b2-1ba7d09581b5",
         "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
         "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
         "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
         "cmsId": "5242",
         "title": "Conference",
-        "type" : 1,
-        "description": "Space rent, 3-4 hours (included)",
-        "salads": "Salads",
-        "mains": "Mains",
-        "dal": "Dal",
-        "rice": "Rice",
-        "pickle": "Pickles/Papads",
-        "breads": "Breads",
-        "dessert": "Desserts",
-        "templateName": "banquetFoodPackageTemplate",
-        "cmsName": "standardFoodPackage"
-      },
-      "status": "success"
-    },
-    {
-      "data": {
-        "catalogId" : "food9",
-        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
-        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
-        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
-        "cmsId": "5242",
-        "title": "Exclusive",
-        "type" : 0,
-        "description": "Space rent, 3-4 hours (included)",
-        "salads": "Salads",
-        "mains": "Mains",
-        "dal": "Dal",
-        "rice": "Rice",
-        "pickle": "Pickles/Papads",
-        "breads": "Breads",
-        "dessert": "Desserts",
-        "templateName": "banquetFoodPackageTemplate",
-        "cmsName": "standardFoodPackage"
-      },
-      "status": "success"
-    },
-    {
-      "data": {
-        "catalogId" : "food10",
-        "image1": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image1",
-        "image2": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image2",
-        "image3": "https://s3-ap-southeast-1.amazonaws.com/mediaservice-packages/5242_image3",
-        "cmsId": "5242",
-        "title": "Exclusive",
         "type" : 1,
         "description": "Space rent, 3-4 hours (included)",
         "salads": "Salads",
