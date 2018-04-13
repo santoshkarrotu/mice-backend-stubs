@@ -105,7 +105,89 @@
               "afterDiscountPrice" : 90.00
             }
           }
-        ]
+        ],
+        "pricePerPax" : {
+          "04c322b0-3446-4c99-ab4d-811b07e69c08": {
+            "pax-range-883d3218-f2c4-4004-b9c6-5afe7eec70e2": 799,
+            "pax-range-48288ff0-363e-4b03-b20d-6618048bc264": 799,
+            "pax-range-58a44a24-6d5c-4343-96b8-89596ca095af": 799,
+            "pax-range-94a9f062-a687-46b0-9fae-3f44e188a227": 749,
+            "pax-range-839feb49-d19a-4699-ba38-b56da24b867a": 699,
+            "pax-range-50cffdd5-fe8f-46ce-a452-bce6d734a24a": 649,
+            "pax-range-175b23ac-748d-4b02-81db-a91b3dd8b991": 599,
+            "pax-range-47605e7e-5d07-469d-860c-63e39e4dc6ec": 549
+          },
+          "721cbbc4-f263-4455-8131-1f44b2e02346": {
+            "pax-range-883d3218-f2c4-4004-b9c6-5afe7eec70e2": 899,
+            "pax-range-48288ff0-363e-4b03-b20d-6618048bc264": 899,
+            "pax-range-58a44a24-6d5c-4343-96b8-89596ca095af": 899,
+            "pax-range-94a9f062-a687-46b0-9fae-3f44e188a227": 849,
+            "pax-range-839feb49-d19a-4699-ba38-b56da24b867a": 799,
+            "pax-range-50cffdd5-fe8f-46ce-a452-bce6d734a24a": 749,
+            "pax-range-175b23ac-748d-4b02-81db-a91b3dd8b991": 699,
+            "pax-range-47605e7e-5d07-469d-860c-63e39e4dc6ec": 649
+          },
+          "f58f675a-828b-4451-8373-1d03ddfb2fa6": {
+            "pax-range-883d3218-f2c4-4004-b9c6-5afe7eec70e2": 999,
+            "pax-range-48288ff0-363e-4b03-b20d-6618048bc264": 999,
+            "pax-range-58a44a24-6d5c-4343-96b8-89596ca095af": 999,
+            "pax-range-94a9f062-a687-46b0-9fae-3f44e188a227": 949,
+            "pax-range-839feb49-d19a-4699-ba38-b56da24b867a": 899,
+            "pax-range-50cffdd5-fe8f-46ce-a452-bce6d734a24a": 849,
+            "pax-range-175b23ac-748d-4b02-81db-a91b3dd8b991": 799,
+            "pax-range-47605e7e-5d07-469d-860c-63e39e4dc6ec": 749
+          },
+          "8eeef41c-c5a1-47d6-9587-187409968f34": {
+            "pax-range-883d3218-f2c4-4004-b9c6-5afe7eec70e2": 1199,
+            "pax-range-48288ff0-363e-4b03-b20d-6618048bc264": 1199,
+            "pax-range-58a44a24-6d5c-4343-96b8-89596ca095af": 1199,
+            "pax-range-94a9f062-a687-46b0-9fae-3f44e188a227": 1149,
+            "pax-range-839feb49-d19a-4699-ba38-b56da24b867a": 1099,
+            "pax-range-50cffdd5-fe8f-46ce-a452-bce6d734a24a": 1049,
+            "pax-range-175b23ac-748d-4b02-81db-a91b3dd8b991": 999,
+            "pax-range-47605e7e-5d07-469d-860c-63e39e4dc6ec": 949
+          },
+          "0edd3fa7-66d9-496f-9e6c-76982de5593e": {
+            "pax-range-883d3218-f2c4-4004-b9c6-5afe7eec70e2": 1499,
+            "pax-range-48288ff0-363e-4b03-b20d-6618048bc264": 1499,
+            "pax-range-58a44a24-6d5c-4343-96b8-89596ca095af": 1499,
+            "pax-range-94a9f062-a687-46b0-9fae-3f44e188a227": 1449,
+            "pax-range-839feb49-d19a-4699-ba38-b56da24b867a": 1399,
+            "pax-range-50cffdd5-fe8f-46ce-a452-bce6d734a24a": 1349,
+            "pax-range-175b23ac-748d-4b02-81db-a91b3dd8b991": 1299,
+            "pax-range-47605e7e-5d07-469d-860c-63e39e4dc6ec": 1249
+          },
+          "6d6259b4-df18-499a-80bf-7df2d2d7f2a0": {
+            "pax-range-883d3218-f2c4-4004-b9c6-5afe7eec70e2": 1599,
+            "pax-range-48288ff0-363e-4b03-b20d-6618048bc264": 1599,
+            "pax-range-58a44a24-6d5c-4343-96b8-89596ca095af": 1599,
+            "pax-range-94a9f062-a687-46b0-9fae-3f44e188a227": 1549,
+            "pax-range-839feb49-d19a-4699-ba38-b56da24b867a": 1499,
+            "pax-range-50cffdd5-fe8f-46ce-a452-bce6d734a24a": 1449,
+            "pax-range-175b23ac-748d-4b02-81db-a91b3dd8b991": 1399,
+            "pax-range-47605e7e-5d07-469d-860c-63e39e4dc6ec": 1349
+          },
+          "38f9836c-47ad-4c7e-8d62-d069eae071fa": {
+            "pax-range-883d3218-f2c4-4004-b9c6-5afe7eec70e2": 1799,
+            "pax-range-48288ff0-363e-4b03-b20d-6618048bc264": 1799,
+            "pax-range-58a44a24-6d5c-4343-96b8-89596ca095af": 1799,
+            "pax-range-94a9f062-a687-46b0-9fae-3f44e188a227": 1749,
+            "pax-range-839feb49-d19a-4699-ba38-b56da24b867a": 1699,
+            "pax-range-50cffdd5-fe8f-46ce-a452-bce6d734a24a": 1649,
+            "pax-range-175b23ac-748d-4b02-81db-a91b3dd8b991": 1599,
+            "pax-range-47605e7e-5d07-469d-860c-63e39e4dc6ec": 1549
+          },
+          "8301e192-1786-4284-a6b2-1ba7d09581b5": {
+            "pax-range-883d3218-f2c4-4004-b9c6-5afe7eec70e2": 1999,
+            "pax-range-48288ff0-363e-4b03-b20d-6618048bc264": 1999,
+            "pax-range-58a44a24-6d5c-4343-96b8-89596ca095af": 1999,
+            "pax-range-94a9f062-a687-46b0-9fae-3f44e188a227": 1949,
+            "pax-range-839feb49-d19a-4699-ba38-b56da24b867a": 1899,
+            "pax-range-50cffdd5-fe8f-46ce-a452-bce6d734a24a": 1849,
+            "pax-range-175b23ac-748d-4b02-81db-a91b3dd8b991": 1799,
+            "pax-range-47605e7e-5d07-469d-860c-63e39e4dc6ec": 1749
+          }
+        }
       },
       {
         "commonValues" : {

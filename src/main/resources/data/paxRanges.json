@@ -1,9 +1,9 @@
 [
   {
     "paxRange" : {
-      "id": "M0",
-      "displayName" : "20-50",
-      "minNumberOfPax" : 20,
+      "id": "pax-range-883d3218-f2c4-4004-b9c6-5afe7eec70e2",
+      "displayName" : "Under 50",
+      "minNumberOfPax" : 1,
       "maxNumberOfPax" : 50
     },
     "status" : 0,
@@ -11,9 +11,9 @@
   },
   {
     "paxRange" : {
-      "id": "M1",
-      "displayName" : "50-100",
-      "minNumberOfPax" : 50,
+      "id": "pax-range-48288ff0-363e-4b03-b20d-6618048bc264",
+      "displayName" : "50 - 100",
+      "minNumberOfPax" : 51,
       "maxNumberOfPax" : 100
     },
     "status" : 0,
@@ -21,9 +21,9 @@
   },
   {
     "paxRange" : {
-      "id": "M2",
-      "displayName" : "100-150",
-      "minNumberOfPax" : 100,
+      "id": "pax-range-58a44a24-6d5c-4343-96b8-89596ca095af",
+      "displayName" : "100 - 200",
+      "minNumberOfPax" : 101,
       "maxNumberOfPax" : 200
     },
     "status" : 0,
@@ -31,8 +31,8 @@
   },
   {
     "paxRange" : {
-      "id": "M3",
-      "displayName" : "150-200",
+      "id": "pax-range-94a9f062-a687-46b0-9fae-3f44e188a227",
+      "displayName" : "200 - 300",
       "minNumberOfPax" : 200,
       "maxNumberOfPax" : 300
     },
@@ -41,8 +41,8 @@
   },
   {
     "paxRange" : {
-      "id": "M4",
-      "displayName" : "200-500",
+      "id": "pax-range-839feb49-d19a-4699-ba38-b56da24b867a",
+      "displayName" : "300 - 500",
       "minNumberOfPax" : 300,
       "maxNumberOfPax" : 500
     },
@@ -51,10 +51,30 @@
   },
   {
     "paxRange" : {
-      "id": "M5",
-      "displayName" : "Over 500",
+      "id": "pax-range-50cffdd5-fe8f-46ce-a452-bce6d734a24a",
+      "displayName" : "500 - 700",
       "minNumberOfPax" : 500,
-      "maxNumberOfPax" : 100000
+      "maxNumberOfPax" : 700
+    },
+    "status" : 0,
+    "errorList" : null
+  },
+  {
+    "paxRange" : {
+      "id": "pax-range-175b23ac-748d-4b02-81db-a91b3dd8b991",
+      "displayName" : "700 - 1000",
+      "minNumberOfPax" : 700,
+      "maxNumberOfPax" : 1000
+    },
+    "status" : 0,
+    "errorList" : null
+  },
+  {
+    "paxRange" : {
+      "id": "pax-range-47605e7e-5d07-469d-860c-63e39e4dc6ec",
+      "displayName" : "Over 1000",
+      "minNumberOfPax" : 1000,
+      "maxNumberOfPax" : 1000000
     },
     "status" : 0,
     "errorList" : null
